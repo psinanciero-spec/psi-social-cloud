@@ -13,7 +13,6 @@ import requests
 
 TOKEN      = os.environ["PSI_KREA_TOKEN"]
 IG_USER_ID = "27949964061276820"
-COLAB      = "psi.financiero"
 QUEUE_FILE = "reels-queue.json"
 VIDEO_DIR  = "videos"
 GRAPH      = "https://graph.instagram.com/v21.0"
@@ -60,7 +59,6 @@ def main():
         "media_type": "REELS",
         "video_url": video_url,
         "caption": nxt["caption"],
-        "collaborators": COLAB,
         "access_token": TOKEN,
     }, timeout=120)
     j = r.json()
