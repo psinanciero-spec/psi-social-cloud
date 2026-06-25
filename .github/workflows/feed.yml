@@ -1,0 +1,47 @@
+name: Psi Financiero - Publicar Carruseles
+
+on:
+  schedule:
+    # 1 carrusel por dia. 23:00 UTC = 20:00 ARG
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-feed
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Bajar el codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Publicar el proximo carrusel
+        env:
+          PSI_FIN_TOKEN: ${{ secrets.PSI_FIN_TOKEN }}
+        run: python publicar_feed.py
+
+      - name: Guardar la cola actualizada
+        run: |
+          git config user.name "psi-fin-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet && echo "Sin cambios" && exit 0
+          git commit -m "Carrusel publicado $(date -u +%Y-%m-%d_%H:%M)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "Reintento de push ($i)..." && sleep 5
+          done
