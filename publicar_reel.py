@@ -3,7 +3,7 @@
 """
 PSI KREA - Publicador de Reels en la nube (GitHub Actions)
 Publica el proximo video pendiente de reels-queue.json en @psi.krea,
-con @psi.financiero como colaborador.
+sin colaborador.
 """
 import os
 import sys
