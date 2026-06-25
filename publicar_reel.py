@@ -37,7 +37,7 @@ def subir_litterbox(path):
 
 
 def main():
-    with open(QUEUE_FILE, encoding="utf-8") as f:
+    with open(QUEUE_FILE, encoding="utf-8-sig") as f:
         queue = json.load(f)
 
     nxt = next((x for x in queue if x["status"] == "pending"), None)
