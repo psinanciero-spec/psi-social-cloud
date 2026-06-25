@@ -1,58 +1,58 @@
-﻿[
-    {
-        "id":  "vid01",
-        "status":  "published",
-        "file":  "c3ks4GygRaw.mp4",
-        "autor":  "Psi Mammoliti",
-        "caption":  "PUBLICADO"
-    },
-    {
-        "id":  "vid02",
-        "status":  "published",
-        "file":  "DldHjrXIzUA.mp4",
-        "autor":  "Santiago Bilinkis",
-        "caption":  "El dinero no compra felicidad. Pero sí te salva de algo muy concreto.\n\nLa tranquilidad de no vivir con la soga al cuello cambia todo.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Santiago Bilinkis (este contenido es de su autoría)\n\n#dinero #finanzaspersonales #felicidad #psicologiadeldinero #ahorro #bienestar #argentina #buenosaires"
-    },
-    {
-        "id":  "vid03",
-        "status":  "published",
-        "file":  "2LdTp2lkn1I.mp4",
-        "autor":  "Santiago Bilinkis",
-        "caption":  "¿Tomás decisiones de plata pensando en hoy o en el vos de dentro de 10 años?\n\nHacerte amigo de tu yo del futuro es la mejor inversión que existe.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Santiago Bilinkis (este contenido es de su autoría)\n\n#ahorro #finanzas #decisiones #futuro #psicologiadeldinero #inversiones #argentina #buenosaires"
-    },
-    {
-        "id":  "vid04",
-        "status":  "pending",
-        "file":  "AIrfhLnmT9Q.mp4",
-        "autor":  "Sofia Contreras",
-        "caption":  "Tu ego puede estar frenando tu crecimiento económico sin que te des cuenta.\n\nLo que creés que sos a veces te impide ganar lo que merecés.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Sofia Contreras (este contenido es de su autoría)\n\n#ego #dinero #mentalidad #crecimientopersonal #psicologiadeldinero #abundancia #argentina #buenosaires"
-    },
-    {
-        "id":  "vid05",
-        "status":  "pending",
-        "file":  "CzgwGjXxsYY.mp4",
-        "autor":  "Santiago Bilinkis",
-        "caption":  "6 claves para ordenar tus finanzas de una vez.\n\nSin fórmulas mágicas. Solo decisiones simples que sostenidas en el tiempo cambian todo.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Santiago Bilinkis (este contenido es de su autoría)\n\n#finanzaspersonales #ahorro #orden #dinero #psicologiadeldinero #habitos #argentina #buenosaires"
-    },
-    {
-        "id":  "vid06",
-        "status":  "pending",
-        "file":  "A6MziSkcvnI.mp4",
-        "autor":  "Psi Mammoliti",
-        "caption":  "¿Sentís malestar en el trabajo y no sabés bien de dónde viene?\n\nA veces no es el trabajo en sí, sino lo que proyectamos en él.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Psi Mammoliti (este contenido es de su autoría)\n\n#trabajo #bienestar #psicologia #saludmental #desarrollopersonal #argentina #buenosaires"
-    },
-    {
-        "id":  "vid07",
-        "status":  "pending",
-        "file":  "XP8AOIXD5Rw.mp4",
-        "autor":  "Sofia Contreras",
-        "caption":  "¿Estás persiguiendo tu versión del éxito o la de otro?\n\nDefinir qué significa el éxito para vos es el primer paso para alcanzarlo.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Sofia Contreras (este contenido es de su autoría)\n\n#exito #proposito #mentalidad #crecimientopersonal #psicologiadeldinero #motivacion #argentina #buenosaires"
-    },
-    {
-        "id":  "vid08",
-        "status":  "pending",
-        "file":  "BEnuKVwbEaU.mp4",
-        "autor":  "Sofia Contreras",
-        "caption":  "El miedo al éxito es más común de lo que pensás. Y más silencioso.\n\nA veces saboteamos lo que más queremos sin darnos cuenta.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Sofia Contreras (este contenido es de su autoría)\n\n#miedoalexito #autosabotaje #mentalidad #crecimientopersonal #psicologiadeldinero #exito #argentina #buenosaires"
-    }
+[
+  {
+    "id": "vid01",
+    "status": "published",
+    "file": "c3ks4GygRaw.mp4",
+    "autor": "Psi Mammoliti",
+    "caption": "PUBLICADO"
+  },
+  {
+    "id": "vid02",
+    "status": "published",
+    "file": "DldHjrXIzUA.mp4",
+    "autor": "Santiago Bilinkis",
+    "caption": "El dinero no compra felicidad. Pero sí te salva de algo muy concreto.\n\nLa tranquilidad de no vivir con la soga al cuello cambia todo.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Santiago Bilinkis (este contenido es de su autoría)\n\n#dinero #finanzaspersonales #felicidad #psicologiadeldinero #ahorro #bienestar #argentina #buenosaires"
+  },
+  {
+    "id": "vid03",
+    "status": "published",
+    "file": "2LdTp2lkn1I.mp4",
+    "autor": "Santiago Bilinkis",
+    "caption": "¿Tomás decisiones de plata pensando en hoy o en el vos de dentro de 10 años?\n\nHacerte amigo de tu yo del futuro es la mejor inversión que existe.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Santiago Bilinkis (este contenido es de su autoría)\n\n#ahorro #finanzas #decisiones #futuro #psicologiadeldinero #inversiones #argentina #buenosaires"
+  },
+  {
+    "id": "vid04",
+    "status": "published",
+    "file": "AIrfhLnmT9Q.mp4",
+    "autor": "Sofia Contreras",
+    "caption": "Tu ego puede estar frenando tu crecimiento económico sin que te des cuenta.\n\nLo que creés que sos a veces te impide ganar lo que merecés.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Sofia Contreras (este contenido es de su autoría)\n\n#ego #dinero #mentalidad #crecimientopersonal #psicologiadeldinero #abundancia #argentina #buenosaires"
+  },
+  {
+    "id": "vid05",
+    "status": "pending",
+    "file": "CzgwGjXxsYY.mp4",
+    "autor": "Santiago Bilinkis",
+    "caption": "6 claves para ordenar tus finanzas de una vez.\n\nSin fórmulas mágicas. Solo decisiones simples que sostenidas en el tiempo cambian todo.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Santiago Bilinkis (este contenido es de su autoría)\n\n#finanzaspersonales #ahorro #orden #dinero #psicologiadeldinero #habitos #argentina #buenosaires"
+  },
+  {
+    "id": "vid06",
+    "status": "pending",
+    "file": "A6MziSkcvnI.mp4",
+    "autor": "Psi Mammoliti",
+    "caption": "¿Sentís malestar en el trabajo y no sabés bien de dónde viene?\n\nA veces no es el trabajo en sí, sino lo que proyectamos en él.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Psi Mammoliti (este contenido es de su autoría)\n\n#trabajo #bienestar #psicologia #saludmental #desarrollopersonal #argentina #buenosaires"
+  },
+  {
+    "id": "vid07",
+    "status": "pending",
+    "file": "XP8AOIXD5Rw.mp4",
+    "autor": "Sofia Contreras",
+    "caption": "¿Estás persiguiendo tu versión del éxito o la de otro?\n\nDefinir qué significa el éxito para vos es el primer paso para alcanzarlo.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Sofia Contreras (este contenido es de su autoría)\n\n#exito #proposito #mentalidad #crecimientopersonal #psicologiadeldinero #motivacion #argentina #buenosaires"
+  },
+  {
+    "id": "vid08",
+    "status": "pending",
+    "file": "BEnuKVwbEaU.mp4",
+    "autor": "Sofia Contreras",
+    "caption": "El miedo al éxito es más común de lo que pensás. Y más silencioso.\n\nA veces saboteamos lo que más queremos sin darnos cuenta.\n\nComenta \"Mas\" si querés recibir el link con la Entrevista completa\n\nCrédito: Sofia Contreras (este contenido es de su autoría)\n\n#miedoalexito #autosabotaje #mentalidad #crecimientopersonal #psicologiadeldinero #exito #argentina #buenosaires"
+  }
 ]
