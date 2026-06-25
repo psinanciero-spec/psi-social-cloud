@@ -3,9 +3,8 @@ name: Psi Krea - Publicar Reels
 on:
   schedule:
     # Horarios en UTC. Argentina = UTC-3.
-    # 12:00 UTC = 09:00 ARG  |  00:00 UTC = 21:00 ARG (del dia anterior)
-    - cron: "0 12 * * *"
-    - cron: "0 0 * * *"
+    # 1 reel por dia (mas seguro). 13:00 UTC = 10:00 ARG
+    - cron: "0 13 * * *"
   workflow_dispatch:   # boton para correrlo a mano
 
 permissions:
