@@ -15,22 +15,18 @@ IG_USER_ID = "27246132295017842"
 QUEUE_FILE = "feed-queue.json"
 IMG_DIR    = "feed"
 GRAPH      = "https://graph.instagram.com/v21.0"
-LITTERBOX  = "https://litterbox.catbox.moe/resources/internals/api.php"
+# Las imagenes se sirven directo desde el repo publico (GitHub raw).
+# Instagram las descarga desde aca, sin depender de hosts externos.
+RAW_BASE   = "https://raw.githubusercontent.com/psinanciero-spec/psi-social-cloud/main/"
 
 
 def log(msg):
     print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {msg}", flush=True)
 
 
-def subir_litterbox(path):
-    with open(path, "rb") as f:
-        files = {"fileToUpload": (os.path.basename(path), f, "image/jpeg")}
-        data = {"reqtype": "fileupload", "time": "72h"}
-        r = requests.post(LITTERBOX, data=data, files=files, timeout=180)
-    url = r.text.strip()
-    if not url.startswith("https://"):
-        raise RuntimeError(f"litterbox fallo: {url}")
-    return url
+def url_publica(path):
+    # path es relativo al repo, ej: feed/c10_1.jpg
+    return RAW_BASE + path.replace("\\", "/")
 
 
 def main():
@@ -52,10 +48,9 @@ def main():
         if not os.path.exists(path):
             log(f"ERROR: falta el archivo {path}")
             sys.exit(1)
-        url = subir_litterbox(path)
+        url = url_publica(f"{IMG_DIR}/{nxt['id']}_{i}.jpg")
         log(f"  Slide {i}: {url}")
         urls.append(url)
-        time.sleep(2)
 
     # Carrusel necesita 2+ imagenes; si es 1 sola, post simple
     if n_slides == 1:

@@ -16,23 +16,16 @@ IG_USER_ID = "27949964061276820"
 QUEUE_FILE = "reels-queue.json"
 VIDEO_DIR  = "videos"
 GRAPH      = "https://graph.instagram.com/v21.0"
-LITTERBOX  = "https://litterbox.catbox.moe/resources/internals/api.php"
+# Los videos se sirven directo desde el repo publico (GitHub raw).
+RAW_BASE   = "https://raw.githubusercontent.com/psinanciero-spec/psi-social-cloud/main/"
 
 
 def log(msg):
     print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {msg}", flush=True)
 
 
-def subir_litterbox(path):
-    """Sube el video a litterbox (link temporal 72h) y devuelve la URL publica."""
-    with open(path, "rb") as f:
-        files = {"fileToUpload": (os.path.basename(path), f, "video/mp4")}
-        data = {"reqtype": "fileupload", "time": "72h"}
-        r = requests.post(LITTERBOX, data=data, files=files, timeout=300)
-    url = r.text.strip()
-    if not url.startswith("https://"):
-        raise RuntimeError(f"litterbox fallo: {url}")
-    return url
+def url_publica(path):
+    return RAW_BASE + path.replace("\\", "/")
 
 
 def main():
@@ -51,8 +44,8 @@ def main():
     if not os.path.exists(video_path):
         log(f"ERROR: no existe el archivo {video_path}")
         sys.exit(1)
-    video_url = subir_litterbox(video_path)
-    log(f"  Video subido: {video_url}")
+    video_url = url_publica(f"{VIDEO_DIR}/{nxt['file']}")
+    log(f"  Video URL: {video_url}")
 
     # 2. Crear container REELS
     r = requests.post(f"{GRAPH}/{IG_USER_ID}/media", data={
