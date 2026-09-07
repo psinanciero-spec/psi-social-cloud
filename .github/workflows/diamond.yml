@@ -1,0 +1,52 @@
+name: Diamond Cleaning - Publicar Reels
+
+on:
+  schedule:
+    # Horarios en UTC. Gold Coast (Queensland) = UTC+10 todo el año: no tiene horario de verano.
+    - cron: "0 22 * * *"    # 08:00 Gold Coast (del dia siguiente)
+    - cron: "0 2 * * *"     # 12:00 Gold Coast
+    - cron: "0 6 * * *"     # 16:00 Gold Coast
+    - cron: "30 9 * * *"    # 19:30 Gold Coast
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Sin esto dos corridas podrian agarrar el mismo video. Es exactamente lo que
+# rompia en Windows: cinco tareas juntas publicando lo mismo con el mismo pie.
+concurrency:
+  group: publicar-diamond
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Bajar el codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Publicar el proximo reel
+        env:
+          DIAMOND_IG_TOKEN: ${{ secrets.DIAMOND_IG_TOKEN }}
+        run: python publicar_diamond.py
+
+      - name: Guardar la cola actualizada
+        run: |
+          git config user.name "diamond-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet && echo "Sin cambios" && exit 0
+          git commit -m "Reel de Diamond publicado $(date -u +%Y-%m-%d_%H:%M)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "Reintento de push ($i)..." && sleep 5
+          done
