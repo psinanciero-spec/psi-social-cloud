@@ -84,3 +84,38 @@ cd C:\Users\nicom\Desktop\ADS
 ```
 
 Cuando quedan menos de 4 pendientes, el log de Actions avisa.
+
+---
+
+## Reels en @psi.financiero
+
+Las placas verticales (1080x1920) del banco creativo convertidas en reels.
+Archivos propios: `publicar_reel_psi.py`, `psi-reels-queue.json`, carpeta `reels-psi/`
+y workflow `reels-psi.yml`. Usa el mismo secret que el feed: `PSI_FIN_TOKEN`.
+
+**1 reel por dia a las 12:00 ARG** (15:00 UTC). El carrusel del feed sigue saliendo
+a las 20:00 ARG, sin pisarse.
+
+### Como se arma un reel
+
+En la PC, con las placas de `ADS\systems\psi-financiero\outputs\banco-creativo`:
+
+```powershell
+cd C:\Users\nicom\Desktop\ADS\systems\psi-financiero\outputs\reels
+python armar-reels.py Lote-05 Lote-06
+```
+
+Cada placa dura segun cuanto texto tiene, lleva zoom lento y fundido entre medio.
+Se le borra la flecha de "desliza" (en un reel no va) rellenando el fondo, y la musica
+instrumental se sintetiza local con `musica.py`: no se descarga nada, no hay derechos
+de terceros. La API de Instagram no permite ponerle musica del catalogo de la app.
+
+### Antes de cargar mas
+
+Chequear que la placa no se haya publicado ya:
+
+```powershell
+cd C:\Users\nicom\Desktop\ADS\systems\psi-financiero\outputs
+python huellas.py indexar
+python huellas.py chequear banco-creativo\Lote-XX\1.png
+```
