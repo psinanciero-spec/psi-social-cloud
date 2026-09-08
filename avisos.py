@@ -24,16 +24,16 @@ import requests
 HOY = datetime.date.today()
 
 # Cuando quedan menos que esto, hay que recargar.
+# Solo las dos cuentas que le importan al usuario. Psi Krea queda afuera a
+# proposito: no la esta trabajando y avisar por ella era ruido.
 COLAS = [
     ("Diamond (@diamondcleaning.gc)", "diamond-queue.json", 5, 15),
     ("Psi Financiero feed", "feed-queue.json", 1, 4),
-    ("Psi Krea reels", "reels-queue.json", 1, 3),
 ]
 
 TOKENS = [
     ("DIAMOND_IG_TOKEN", "Diamond (@diamondcleaning.gc)", "2026-10-15"),
     ("PSI_FIN_TOKEN", "Psi Financiero (@psi.financiero)", "2026-10-25"),
-    ("PSI_KREA_TOKEN", "Psi Krea (@psi.krea)", None),
 ]
 
 DIAS_AVISO = 12   # avisa con margen para que no llegue justo

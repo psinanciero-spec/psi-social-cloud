@@ -32,7 +32,6 @@ jobs:
         env:
           DIAMOND_IG_TOKEN: ${{ secrets.DIAMOND_IG_TOKEN }}
           PSI_FIN_TOKEN: ${{ secrets.PSI_FIN_TOKEN }}
-          PSI_KREA_TOKEN: ${{ secrets.PSI_KREA_TOKEN }}
         run: |
           python avisos.py > hallazgos.txt
           if [ -s hallazgos.txt ]; then
