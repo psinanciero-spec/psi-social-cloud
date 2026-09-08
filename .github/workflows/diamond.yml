@@ -3,9 +3,12 @@ name: Diamond Cleaning - Publicar Reels
 on:
   schedule:
     # Horarios en UTC. Gold Coast (Queensland) = UTC+10 todo el año: no tiene horario de verano.
+    # Repartidos, nunca en rafaga: en junio de 2026 restringieron la cuenta de
+    # Facebook por subir varios seguidos.
     - cron: "0 22 * * *"    # 08:00 Gold Coast (del dia siguiente)
-    - cron: "0 2 * * *"     # 12:00 Gold Coast
-    - cron: "0 6 * * *"     # 16:00 Gold Coast
+    - cron: "0 1 * * *"     # 11:00 Gold Coast
+    - cron: "0 4 * * *"     # 14:00 Gold Coast
+    - cron: "0 7 * * *"     # 17:00 Gold Coast
     - cron: "30 9 * * *"    # 19:30 Gold Coast
   workflow_dispatch:
 
