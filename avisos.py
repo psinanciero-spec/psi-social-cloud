@@ -27,8 +27,9 @@ HOY = datetime.date.today()
 # Solo las dos cuentas que le importan al usuario. Psi Krea queda afuera a
 # proposito: no la esta trabajando y avisar por ella era ruido.
 COLAS = [
-    ("Diamond (@diamondcleaning.gc)", "diamond-queue.json", 5, 15),
-    ("Psi Financiero feed", "feed-queue.json", 1, 4),
+    ("Diamond reels (@diamondcleaning.gc)", "diamond-queue.json", 5, 15),
+    ("Psi Financiero carruseles", "feed-queue.json", 1, 4),
+    ("Psi Financiero reels", "psi-reels-queue.json", 1, 4),
 ]
 
 TOKENS = [
