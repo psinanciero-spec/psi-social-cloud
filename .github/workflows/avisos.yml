@@ -1,0 +1,78 @@
+name: Aviso - colas y tokens
+
+# Avisa ANTES de que se corte la publicacion. Las dos veces que se corto nadie se
+# entero: el workflow falla en silencio. A Psi Financiero le costo un mes.
+#
+# El aviso sale como issue de GitHub porque eso llega por mail solo, sin tener que
+# configurar un servidor de correo ni guardar otra contraseña.
+
+on:
+  schedule:
+    - cron: "0 23 * * *"   # 09:00 Gold Coast / 20:00 Argentina
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Revisar colas y tokens
+        id: revisar
+        env:
+          DIAMOND_IG_TOKEN: ${{ secrets.DIAMOND_IG_TOKEN }}
+          PSI_FIN_TOKEN: ${{ secrets.PSI_FIN_TOKEN }}
+          PSI_KREA_TOKEN: ${{ secrets.PSI_KREA_TOKEN }}
+        run: |
+          python avisos.py > hallazgos.txt
+          if [ -s hallazgos.txt ]; then
+            echo "hay=si" >> $GITHUB_OUTPUT
+          else
+            echo "hay=no" >> $GITHUB_OUTPUT
+            echo "Todo en orden."
+          fi
+
+      - name: Abrir o actualizar el aviso
+        if: steps.revisar.outputs.hay == 'si'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          TITULO="Mantenimiento: hay que recargar cola o renovar token"
+          CUERPO="$(cat hallazgos.txt)
+
+          ---
+
+          **Para recargar la cola de Diamond** (necesita la PC prendida, baja y subtitula los videos):
+
+          \`\`\`
+          cd C:\\Users\\nicom\\Desktop\\ADS
+          powershell -File preparar_diamond.ps1 -Cantidad 50 -Push
+          \`\`\`
+
+          **Para renovar un token:** developers.facebook.com -> app 1578403007186718 -> Instagram -> Configuracion de la API con inicio de sesion de Instagram -> Generar token. Despues:
+
+          \`\`\`
+          gh secret set NOMBRE_DEL_SECRET -R $REPO
+          \`\`\`
+
+          _Revisado el $(date -u '+%Y-%m-%d %H:%M') UTC. Este issue se actualiza solo cada dia; cerralo cuando lo resuelvas._"
+
+          EXISTENTE=$(gh issue list -R "$REPO" --state open --search "$TITULO in:title" --json number --jq '.[0].number')
+          if [ -n "$EXISTENTE" ]; then
+            gh issue comment "$EXISTENTE" -R "$REPO" --body "$CUERPO"
+            echo "Comentado en el issue #$EXISTENTE"
+          else
+            gh issue create -R "$REPO" --title "$TITULO" --body "$CUERPO"
+            echo "Issue creado"
+          fi
