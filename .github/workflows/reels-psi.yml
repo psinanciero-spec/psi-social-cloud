@@ -2,8 +2,9 @@ name: Psi Financiero - Publicar Reels
 
 on:
   schedule:
-    # 1 reel por dia. 15:00 UTC = 12:00 ARG (el carrusel del feed sale a las 20:00 ARG)
+    # 2 reels por dia: 12:00 y 18:00 ARG. El carrusel del feed sale 20:00 ARG.
     - cron: "0 15 * * *"
+    - cron: "0 21 * * *"
   workflow_dispatch:
 
 permissions:
