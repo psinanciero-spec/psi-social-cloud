@@ -11,12 +11,57 @@ compartido y, cuando dos corridas caian juntas, las dos leian el mismo numero y
 publicaban el MISMO texto (paso el 02/09/2026, dos reels identicos con 21
 segundos de diferencia). Con el pie precalculado eso no puede pasar.
 """
+import datetime
+import hashlib
 import json
 import os
+import random
 import sys
 import time
 
 import requests
+
+# Gold Coast (Queensland) no tiene horario de verano: siempre UTC+10.
+GC = datetime.timezone(datetime.timedelta(hours=10))
+
+
+def hoy_gc():
+    return datetime.datetime.now(GC).date()
+
+
+def cupo_del_dia(fecha):
+    """Cuantos reels toca hoy. Varia solo entre 3 y 6 en vez de ser 5 clavados.
+
+    Publicar exactamente 5 por dia a la misma hora, todos los dias del año, es lo
+    que hace que una cuenta parezca un bot aunque cada pieza este bien hecha. El
+    numero sale del dia con una semilla fija, asi todas las corridas de la misma
+    jornada calculan el MISMO cupo sin necesidad de guardarlo en ningun lado.
+    """
+    semilla = int(hashlib.md5(fecha.isoformat().encode()).hexdigest()[:8], 16)
+    r = random.Random(semilla)
+    if fecha.weekday() == 6:        # domingo, la gente publica menos
+        return r.choice([2, 3, 3, 4])
+    if fecha.weekday() == 5:        # sabado
+        return r.choice([3, 4, 4, 5])
+    return r.choice([4, 4, 5, 5, 5, 6])
+
+
+def publicados_hoy(cola):
+    hoy = hoy_gc().isoformat()
+    n = 0
+    for x in cola:
+        p = x.get("publicado")
+        if not p:
+            continue
+        try:
+            # 'publicado' se guarda en UTC; se pasa a hora Gold Coast.
+            utc = datetime.datetime.strptime(p, "%Y-%m-%d %H:%M:%S").replace(
+                tzinfo=datetime.timezone.utc)
+            if utc.astimezone(GC).date().isoformat() == hoy:
+                n += 1
+        except ValueError:
+            continue
+    return n
 
 TOKEN = os.environ["DIAMOND_IG_TOKEN"]
 IG_USER_ID = "38503730179240667"
@@ -43,6 +88,23 @@ def main():
     if not sig:
         log("No hay reels pendientes. Correr preparar_diamond.ps1 en la PC.")
         return
+
+    # --- Cuanto va hoy ---
+    cupo = cupo_del_dia(hoy_gc())
+    ya = publicados_hoy(cola)
+    log("Hoy (%s) el cupo es %d y van %d." % (hoy_gc(), cupo, ya))
+    if ya >= cupo:
+        log("Cupo cumplido, esta corrida no publica.")
+        return
+
+    # --- Ruido en la hora ---
+    # Los cron son fijos y a la larga dejan una huella de bot: 08:00:04, 11:00:06,
+    # todos los dias. Esperar un rato al azar corre el posteo dentro de la franja.
+    if os.environ.get("GITHUB_EVENT_NAME") == "schedule":
+        espera = random.randint(0, 34 * 60)
+        log("Esperando %d min %d s para no publicar siempre a la misma hora."
+            % (espera // 60, espera % 60))
+        time.sleep(espera)
 
     ruta = os.path.join(VIDEO_DIR, sig["file"])
     if not os.path.exists(ruta):

@@ -5,11 +5,18 @@ on:
     # Horarios en UTC. Gold Coast (Queensland) = UTC+10 todo el año: no tiene horario de verano.
     # Repartidos, nunca en rafaga: en junio de 2026 restringieron la cuenta de
     # Facebook por subir varios seguidos.
-    - cron: "0 22 * * *"    # 08:00 Gold Coast (del dia siguiente)
-    - cron: "0 1 * * *"     # 11:00 Gold Coast
-    - cron: "0 4 * * *"     # 14:00 Gold Coast
-    - cron: "0 7 * * *"     # 17:00 Gold Coast
-    - cron: "30 9 * * *"    # 19:30 Gold Coast
+    # Ocho franjas para un cupo diario de 3 a 6: sobran slots a proposito, asi
+    # las que se publican no caen siempre en las mismas horas. Cada corrida ademas
+    # espera un rato al azar (ver publicar_diamond.py), y decide si le toca
+    # publicar segun el cupo del dia.
+    - cron: "40 21 * * *"   # 07:40 Gold Coast (del dia siguiente)
+    - cron: "10 23 * * *"   # 09:10 Gold Coast
+    - cron: "50 0 * * *"    # 10:50 Gold Coast
+    - cron: "20 2 * * *"    # 12:20 Gold Coast
+    - cron: "5 4 * * *"     # 14:05 Gold Coast
+    - cron: "45 5 * * *"    # 15:45 Gold Coast
+    - cron: "25 7 * * *"    # 17:25 Gold Coast
+    - cron: "10 9 * * *"    # 19:10 Gold Coast
   workflow_dispatch:
 
 permissions:
@@ -24,7 +31,7 @@ concurrency:
 jobs:
   publicar:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 70   # incluye la espera al azar de hasta 34 min
     steps:
       - name: Bajar el codigo
         uses: actions/checkout@v4
