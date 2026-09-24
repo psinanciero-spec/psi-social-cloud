@@ -1,0 +1,39 @@
+name: Prueba - bajar de YouTube desde el runner
+
+# Prueba puntual: saber si yt-dlp funciona desde una IP de GitHub Actions.
+# Si funciona, la recarga de la cola de Diamond puede dejar de depender de la PC.
+# Se puede borrar despues de sacar la conclusion.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -U yt-dlp
+
+      - name: Intentar bajar tres shorts del pool
+        run: |
+          set +e
+          for ID in ZUN1-hPeWMM Lm1swtM5OP0 wdEXw9JsHSg; do
+            echo "=============== $ID"
+            yt-dlp "https://www.youtube.com/shorts/$ID" \
+              -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" \
+              --merge-output-format mp4 -o "$ID.mp4" --no-playlist 2>&1 | tail -6
+            if [ -f "$ID.mp4" ]; then
+              echo "RESULTADO $ID: OK  $(du -h $ID.mp4 | cut -f1)"
+            else
+              echo "RESULTADO $ID: FALLO"
+            fi
+          done
+
+      - name: Resumen
+        run: |
+          echo "Bajados: $(ls -1 *.mp4 2>/dev/null | wc -l) de 3"
+          ls -la *.mp4 2>/dev/null || echo "ninguno"
