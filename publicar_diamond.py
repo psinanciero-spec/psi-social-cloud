@@ -80,6 +80,49 @@ def log(msg):
     print("[%s] %s" % (time.strftime("%Y-%m-%d %H:%M:%S"), msg), flush=True)
 
 
+def publicar_historia(video_url):
+    """Sube el mismo video como historia. Devuelve el id o None.
+
+    Pedido del usuario el 29/09/2026: cada reel sale tambien como historia. Nunca
+    corta la corrida: el reel ya salio y ya quedo marcado en la cola, asi que si
+    la historia falla (p. ej. video de mas de 60 s, el maximo de una historia) se
+    anota y se sigue. La API no permite stickers: ni link, ni encuesta.
+    """
+    try:
+        j = requests.post("%s/%s/media" % (GRAPH, IG_USER_ID), data={
+            "media_type": "STORIES",
+            "video_url": video_url,
+            "access_token": TOKEN,
+        }, timeout=120).json()
+        if "id" not in j:
+            log("Historia: no se pudo crear el container: %s" % j)
+            return None
+        cid = j["id"]
+        for _ in range(40):
+            time.sleep(10)
+            st = requests.get("%s/%s" % (GRAPH, cid), params={
+                "fields": "status_code,status", "access_token": TOKEN}, timeout=60).json()
+            if st.get("status_code") == "FINISHED":
+                break
+            if st.get("status_code") == "ERROR":
+                log("Historia: Instagram rechazo el video: %s" % st)
+                return None
+        else:
+            log("Historia: el video no termino de procesarse")
+            return None
+        for i in range(4):
+            j = requests.post("%s/%s/media_publish" % (GRAPH, IG_USER_ID), data={
+                "creation_id": cid, "access_token": TOKEN}, timeout=120).json()
+            if "id" in j:
+                log("HISTORIA PUBLICADA id=%s" % j["id"])
+                return j["id"]
+            log("  historia, intento %d fallido: %s" % (i + 1, j))
+            time.sleep(15)
+    except requests.RequestException as e:
+        log("Historia: error de red: %s" % e)
+    return None
+
+
 def main():
     with open(QUEUE_FILE, encoding="utf-8-sig") as f:
         cola = json.load(f)
@@ -171,6 +214,16 @@ def main():
             x["publicado"] = time.strftime("%Y-%m-%d %H:%M:%S")
     with open(QUEUE_FILE, "w", encoding="utf-8") as f:
         json.dump(cola, f, ensure_ascii=False, indent=2)
+
+    # 4. El mismo video como historia. Va DESPUES de guardar la cola: si algo
+    #    falla aca, el reel ya quedo registrado y no se vuelve a publicar.
+    story_id = publicar_historia(video_url)
+    if story_id:
+        for x in cola:
+            if x["id"] == sig["id"]:
+                x["story_id"] = story_id
+        with open(QUEUE_FILE, "w", encoding="utf-8") as f:
+            json.dump(cola, f, ensure_ascii=False, indent=2)
 
     quedan = sum(1 for x in cola if x["status"] == "pending")
     log("Cola actualizada. Pendientes: %d (%d dias a 4 por dia)" % (quedan, quedan // 4))
