@@ -30,20 +30,23 @@ def hoy_gc():
 
 
 def cupo_del_dia(fecha):
-    """Cuantos reels toca hoy. Varia solo entre 3 y 6 en vez de ser 5 clavados.
+    """Cuantos reels toca hoy. Apunta a 4, con algo de variacion.
 
-    Publicar exactamente 5 por dia a la misma hora, todos los dias del año, es lo
-    que hace que una cuenta parezca un bot aunque cada pieza este bien hecha. El
-    numero sale del dia con una semilla fija, asi todas las corridas de la misma
-    jornada calculan el MISMO cupo sin necesidad de guardarlo en ningun lado.
+    Publicar exactamente el mismo numero a la misma hora, todos los dias del año,
+    es lo que hace que una cuenta parezca un bot aunque cada pieza este bien
+    hecha. El numero sale del dia con una semilla fija, asi todas las corridas de
+    la misma jornada calculan el MISMO cupo sin guardarlo en ningun lado.
+
+    Bajado de 5 a 4 el 04/10/2026: con 5 por dia Instagram le puso un checkpoint
+    a la cuenta y estuvo 3 dias sin poder publicar.
     """
     semilla = int(hashlib.md5(fecha.isoformat().encode()).hexdigest()[:8], 16)
     r = random.Random(semilla)
     if fecha.weekday() == 6:        # domingo, la gente publica menos
-        return r.choice([2, 3, 3, 4])
+        return r.choice([2, 3, 3])
     if fecha.weekday() == 5:        # sabado
-        return r.choice([3, 4, 4, 5])
-    return r.choice([4, 4, 5, 5, 5, 6])
+        return r.choice([3, 3, 4, 4])
+    return r.choice([3, 4, 4, 4, 4, 5])
 
 
 def publicados_hoy(cola):
