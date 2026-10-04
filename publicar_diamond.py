@@ -161,14 +161,28 @@ def main():
     log("Reel: %s | %s | tema=%s" % (sig["id"], sig["file"], sig.get("tema", "?")))
 
     # 1. Container
-    j = requests.post("%s/%s/media" % (GRAPH, IG_USER_ID), data={
+    #    Etiqueta real de Instagram a la creadora (no solo el @ en el texto),
+    #    cuando preparar_diamond.ps1 encontro su Instagram verificado. Pedido del
+    #    usuario el 04/10/2026. Si no tiene (varias creadoras solo publican en
+    #    YouTube), se publica sin tag: inventar un @ etiquetaria a un desconocido.
+    datos = {
         "media_type": "REELS",
         "video_url": video_url,
         "caption": sig["caption"],
         "location_id": LOCATION_ID,
         "share_to_feed": "true",
         "access_token": TOKEN,
-    }, timeout=120).json()
+    }
+    ig_handle = sig.get("ig_handle")
+    if ig_handle:
+        datos["user_tags"] = json.dumps([{"username": ig_handle}])
+    j = requests.post("%s/%s/media" % (GRAPH, IG_USER_ID), data=datos, timeout=120).json()
+    if "id" not in j and ig_handle:
+        # La creadora pudo haberse puesto privada o cambiado de usuario desde que
+        # se armo la cola. No perder el reel por eso: reintentar sin etiqueta.
+        log("  no se pudo etiquetar a @%s (%s). Publico sin tag." % (ig_handle, j.get("error", {}).get("message")))
+        datos.pop("user_tags", None)
+        j = requests.post("%s/%s/media" % (GRAPH, IG_USER_ID), data=datos, timeout=120).json()
     if "id" not in j:
         log("ERROR creando container: %s" % j)
         sys.exit(1)
