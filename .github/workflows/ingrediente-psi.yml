@@ -1,0 +1,55 @@
+name: Ingrediente Psi - Publicar posteos
+
+on:
+  schedule:
+    # Horarios en UTC. Argentina = UTC-3 todo el año (sin horario de verano).
+    # El plan usa tres franjas: 10:00, 11:00 y 19:30 ARG. El script solo publica
+    # si el posteo que le toca ya venció su publicar_en, así que estas corridas
+    # son solo "chequeos" — nunca publican antes de tiempo ni descargan un
+    # backlog entero junto.
+    - cron: "0 13 * * *"    # 10:00 ARG
+    - cron: "0 14 * * *"    # 11:00 ARG
+    - cron: "30 22 * * *"   # 19:30 ARG
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Si dos corridas caen juntas, la segunda espera. Evita publicar el mismo
+# posteo dos veces (el bug que paso con Diamond el 02/09/2026).
+concurrency:
+  group: publicar-ingrediente-psi
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Bajar el codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Publicar el posteo que haya vencido, si hay alguno
+        env:
+          PSI_KREA_TOKEN: ${{ secrets.PSI_KREA_TOKEN }}
+        run: python publicar_ingrediente_psi.py
+
+      - name: Guardar la cola actualizada
+        run: |
+          git config user.name "ingrediente-psi-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet && echo "Sin cambios" && exit 0
+          git commit -m "Posteo de Ingrediente Psi publicado $(date -u +%Y-%m-%d_%H:%M)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "Reintento de push ($i)..." && sleep 5
+          done
