@@ -1,0 +1,272 @@
+[
+  {
+    "dia": 1,
+    "status": "pending",
+    "publicar_en": "2026-11-02T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H01.jpg"
+  },
+  {
+    "dia": 2,
+    "status": "pending",
+    "publicar_en": "2026-11-03T10:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H02.jpg"
+  },
+  {
+    "dia": 3,
+    "status": "pending",
+    "publicar_en": "2026-11-04T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H03.jpg"
+  },
+  {
+    "dia": 4,
+    "status": "pending",
+    "publicar_en": "2026-11-05T10:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H04.jpg"
+  },
+  {
+    "dia": 5,
+    "status": "pending",
+    "publicar_en": "2026-11-06T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H05.jpg"
+  },
+  {
+    "dia": 6,
+    "status": "pending",
+    "publicar_en": "2026-11-07T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H06.jpg"
+  },
+  {
+    "dia": 7,
+    "status": "pending",
+    "publicar_en": "2026-11-08T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H07.jpg"
+  },
+  {
+    "dia": 8,
+    "status": "pending",
+    "publicar_en": "2026-11-09T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H08.jpg"
+  },
+  {
+    "dia": 9,
+    "status": "pending",
+    "publicar_en": "2026-11-10T10:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H09.jpg"
+  },
+  {
+    "dia": 11,
+    "status": "pending",
+    "publicar_en": "2026-11-12T10:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H11.jpg"
+  },
+  {
+    "dia": 12,
+    "status": "pending",
+    "publicar_en": "2026-11-13T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H12.jpg"
+  },
+  {
+    "dia": 13,
+    "status": "pending",
+    "publicar_en": "2026-11-14T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H13.jpg"
+  },
+  {
+    "dia": 14,
+    "status": "pending",
+    "publicar_en": "2026-11-15T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H14.jpg"
+  },
+  {
+    "dia": 15,
+    "status": "pending",
+    "publicar_en": "2026-11-16T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H15.jpg"
+  },
+  {
+    "dia": 17,
+    "status": "pending",
+    "publicar_en": "2026-11-18T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H17.jpg"
+  },
+  {
+    "dia": 18,
+    "status": "pending",
+    "publicar_en": "2026-11-19T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H18.jpg"
+  },
+  {
+    "dia": 19,
+    "status": "pending",
+    "publicar_en": "2026-11-20T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H19.jpg"
+  },
+  {
+    "dia": 20,
+    "status": "pending",
+    "publicar_en": "2026-11-21T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H20.jpg"
+  },
+  {
+    "dia": 21,
+    "status": "pending",
+    "publicar_en": "2026-11-22T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H21.jpg"
+  },
+  {
+    "dia": 22,
+    "status": "pending",
+    "publicar_en": "2026-11-23T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H22.jpg"
+  },
+  {
+    "dia": 23,
+    "status": "pending",
+    "publicar_en": "2026-11-24T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H23.jpg"
+  },
+  {
+    "dia": 24,
+    "status": "pending",
+    "publicar_en": "2026-11-25T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H24.jpg"
+  },
+  {
+    "dia": 25,
+    "status": "pending",
+    "publicar_en": "2026-11-26T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H25.jpg"
+  },
+  {
+    "dia": 26,
+    "status": "pending",
+    "publicar_en": "2026-11-27T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H26.jpg"
+  },
+  {
+    "dia": 27,
+    "status": "pending",
+    "publicar_en": "2026-11-28T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H27.jpg"
+  },
+  {
+    "dia": 28,
+    "status": "pending",
+    "publicar_en": "2026-11-29T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H28.jpg"
+  },
+  {
+    "dia": 29,
+    "status": "pending",
+    "publicar_en": "2026-11-30T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H29.jpg"
+  },
+  {
+    "dia": 30,
+    "status": "pending",
+    "publicar_en": "2026-12-01T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H30.jpg"
+  },
+  {
+    "dia": 31,
+    "status": "pending",
+    "publicar_en": "2026-12-02T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H31.jpg"
+  },
+  {
+    "dia": 32,
+    "status": "pending",
+    "publicar_en": "2026-12-03T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H32.jpg"
+  },
+  {
+    "dia": 33,
+    "status": "pending",
+    "publicar_en": "2026-12-04T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H33.jpg"
+  },
+  {
+    "dia": 34,
+    "status": "pending",
+    "publicar_en": "2026-12-05T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H34.jpg"
+  },
+  {
+    "dia": 35,
+    "status": "pending",
+    "publicar_en": "2026-12-06T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H35.jpg"
+  },
+  {
+    "dia": 36,
+    "status": "pending",
+    "publicar_en": "2026-12-07T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H36.jpg"
+  },
+  {
+    "dia": 38,
+    "status": "pending",
+    "publicar_en": "2026-12-09T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H38.jpg"
+  },
+  {
+    "dia": 39,
+    "status": "pending",
+    "publicar_en": "2026-12-10T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H39.jpg"
+  },
+  {
+    "dia": 40,
+    "status": "pending",
+    "publicar_en": "2026-12-11T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H40.jpg"
+  },
+  {
+    "dia": 41,
+    "status": "pending",
+    "publicar_en": "2026-12-12T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H41.jpg"
+  },
+  {
+    "dia": 42,
+    "status": "pending",
+    "publicar_en": "2026-12-13T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H42.jpg"
+  },
+  {
+    "dia": 43,
+    "status": "pending",
+    "publicar_en": "2026-12-14T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H43.jpg"
+  },
+  {
+    "dia": 44,
+    "status": "pending",
+    "publicar_en": "2026-10-28T08:54:56-03:00",
+    "archivo": "historias-ingrediente-psi/H44.jpg"
+  },
+  {
+    "dia": 45,
+    "status": "pending",
+    "publicar_en": "2026-12-16T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H45.jpg"
+  },
+  {
+    "dia": 46,
+    "status": "pending",
+    "publicar_en": "2026-12-17T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H46.jpg"
+  },
+  {
+    "dia": 47,
+    "status": "pending",
+    "publicar_en": "2026-12-18T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H47.jpg"
+  },
+  {
+    "dia": 49,
+    "status": "pending",
+    "publicar_en": "2026-10-28T08:50:19-03:00",
+    "archivo": "historias-ingrediente-psi/H49.jpg"
+  }
+]

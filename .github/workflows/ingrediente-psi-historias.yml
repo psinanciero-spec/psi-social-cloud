@@ -1,0 +1,48 @@
+name: Ingrediente Psi - Publicar historias
+
+on:
+  schedule:
+    # 13:00 ARG. Cada historia repite la imagen de un posteo ~3 semanas
+    # despues, nunca el mismo dia que el posteo.
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-ingrediente-psi-historias
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Bajar el codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Publicar la historia que haya vencido, si hay alguna
+        env:
+          PSI_KREA_TOKEN: ${{ secrets.PSI_KREA_TOKEN }}
+        run: python publicar_historias_ingrediente_psi.py
+
+      - name: Guardar la cola actualizada
+        run: |
+          git config user.name "ingrediente-psi-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet && echo "Sin cambios" && exit 0
+          git commit -m "Historia de Ingrediente Psi publicada $(date -u +%Y-%m-%d_%H:%M)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "Reintento de push ($i)..." && sleep 5
+          done
