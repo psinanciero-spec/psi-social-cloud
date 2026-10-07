@@ -547,7 +547,7 @@
   },
   {
     "dia": 49,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-29",
     "hora_argentina": "11:00",
     "publicar_en": "2026-10-07T00:00:00-03:00",
@@ -555,6 +555,7 @@
     "archivos": [
       "ingrediente-psi/D49.jpg"
     ],
-    "pie": "Si hoy fue uno de esos días en los que nada salió, este posteo es para vos.\n\nNo hace falta encontrarle el lado bueno esta noche. Dormí, comé algo rico, y mañana vemos.\n\nMandáselo a alguien que hoy lo necesite.\n\n#crecimientopersonal #emprender #psicologia"
+    "pie": "Si hoy fue uno de esos días en los que nada salió, este posteo es para vos.\n\nNo hace falta encontrarle el lado bueno esta noche. Dormí, comé algo rico, y mañana vemos.\n\nMandáselo a alguien que hoy lo necesite.\n\n#crecimientopersonal #emprender #psicologia",
+    "publicado": "2026-10-07 11:50:19"
   }
 ]
