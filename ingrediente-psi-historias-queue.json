@@ -265,8 +265,9 @@
   },
   {
     "dia": 49,
-    "status": "pending",
+    "status": "published",
     "publicar_en": "2026-10-07T00:00:00-03:00",
-    "archivo": "historias-ingrediente-psi/H49.jpg"
+    "archivo": "historias-ingrediente-psi/H49.jpg",
+    "publicado": "2026-10-07 12:25:44"
   }
 ]
