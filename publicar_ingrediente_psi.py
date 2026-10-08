@@ -15,6 +15,7 @@ Nunca mas de un posteo por corrida.
 import datetime
 import json
 import os
+import random
 import sys
 import time
 
@@ -55,6 +56,14 @@ def main():
 
     pendientes_vencidos.sort(key=lambda t: t[0])
     _, nxt = pendientes_vencidos[0]
+
+    # Ruido en la hora: el cron es fijo y, a la larga, publicar siempre al
+    # mismo segundo deja una huella de bot. Esperar un rato al azar corre
+    # la publicacion dentro de la franja (mismo fix que uso Diamond).
+    if os.environ.get("GITHUB_EVENT_NAME") == "schedule":
+        espera = random.randint(0, 18 * 60)
+        log(f"Esperando {espera // 60} min {espera % 60} s para no publicar siempre a la misma hora exacta.")
+        time.sleep(espera)
 
     log(f"Posteo a publicar: dia {nxt['dia']} | {nxt['fecha']} {nxt['hora_argentina']} ARG | {nxt['tipo']}")
 

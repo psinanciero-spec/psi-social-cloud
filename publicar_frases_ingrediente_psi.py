@@ -9,6 +9,7 @@ una por corrida.
 import datetime
 import json
 import os
+import random
 import sys
 import time
 
@@ -43,6 +44,11 @@ def main():
 
     vencidas.sort(key=lambda t: t[0])
     _, idx, nxt = vencidas[0]
+
+    if os.environ.get("GITHUB_EVENT_NAME") == "schedule":
+        espera = random.randint(0, 18 * 60)
+        log(f"Esperando {espera // 60} min {espera % 60} s para no publicar siempre a la misma hora exacta.")
+        time.sleep(espera)
 
     url = RAW_BASE + nxt["archivo"]
     log(f"Frase a publicar: {nxt['fecha']} {nxt['hora_argentina']} | {url}")
