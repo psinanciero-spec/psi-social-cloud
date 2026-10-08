@@ -17,6 +17,8 @@ import time
 
 import requests
 
+from cupo_diario import hay_cupo, publicados_hoy, CUPO_MAX
+
 TOKEN      = os.environ["PSI_KREA_TOKEN"]
 IG_USER_ID = "27949964061276820"
 QUEUE_FILE = "ingrediente-psi-historias-queue.json"
@@ -48,6 +50,10 @@ def main():
 
     vencidas.sort(key=lambda t: t[0])
     _, nxt = vencidas[0]
+
+    if not hay_cupo():
+        log(f"Cupo diario alcanzado ({publicados_hoy()}/{CUPO_MAX} entre posteos+historias+frases). Se reintenta manana.")
+        return
 
     if os.environ.get("GITHUB_EVENT_NAME") == "schedule":
         espera = random.randint(0, 18 * 60)
