@@ -46,6 +46,7 @@ COLAS_VENCIDAS = [
     ("Ingrediente Psi - posteos", "ingrediente-psi-queue.json"),
     ("Ingrediente Psi - historias", "ingrediente-psi-historias-queue.json"),
     ("Ingrediente Psi - frases", "ingrediente-psi-frases-queue.json"),
+    ("Ingrediente Psi - series tematicas", "ingrediente-psi-historias-tematicas-queue.json"),
 ]
 
 DIAS_AVISO = 12   # avisa con margen para que no llegue justo

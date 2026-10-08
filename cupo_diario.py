@@ -22,6 +22,7 @@ COLAS = [
     "ingrediente-psi-queue.json",
     "ingrediente-psi-historias-queue.json",
     "ingrediente-psi-frases-queue.json",
+    "ingrediente-psi-historias-tematicas-queue.json",
 ]
 
 
