@@ -1,5 +1,19 @@
 [
   {
+    "serie": "Presentacion_1_que_es",
+    "fecha": "2026-10-14",
+    "hora_argentina": "09:00",
+    "publicar_en": "2026-10-14T09:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/Presentacion_1_que_es__01_1.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_1_que_es__01_2.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_1_que_es__01_3.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_1_que_es__01_4.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_1_que_es__01_5.jpg"
+    ],
+    "status": "pending"
+  },
+  {
     "serie": "02_Ejercicio_autoconocimiento",
     "fecha": "2026-10-15",
     "hora_argentina": "09:00",
@@ -42,6 +56,20 @@
     "status": "pending"
   },
   {
+    "serie": "Presentacion_2_a_quien_ayudamos",
+    "fecha": "2026-10-18",
+    "hora_argentina": "09:00",
+    "publicar_en": "2026-10-18T09:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/Presentacion_2_a_quien_ayudamos__02_1.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_2_a_quien_ayudamos__02_2.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_2_a_quien_ayudamos__02_3.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_2_a_quien_ayudamos__02_4.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_2_a_quien_ayudamos__02_5.jpg"
+    ],
+    "status": "pending"
+  },
+  {
     "serie": "N05_30_fracasos",
     "fecha": "2026-10-20",
     "hora_argentina": "09:00",
@@ -52,6 +80,20 @@
       "historias-tematicas-ingrediente-psi/N05_30_fracasos__05_3.jpg",
       "historias-tematicas-ingrediente-psi/N05_30_fracasos__05_4.jpg",
       "historias-tematicas-ingrediente-psi/N05_30_fracasos__05_5.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "Presentacion_3_como_trabajamos",
+    "fecha": "2026-10-21",
+    "hora_argentina": "09:00",
+    "publicar_en": "2026-10-21T09:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/Presentacion_3_como_trabajamos__03_1.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_3_como_trabajamos__03_2.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_3_como_trabajamos__03_3.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_3_como_trabajamos__03_4.jpg",
+      "historias-tematicas-ingrediente-psi/Presentacion_3_como_trabajamos__03_5.jpg"
     ],
     "status": "pending"
   },
