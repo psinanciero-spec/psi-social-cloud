@@ -14,6 +14,34 @@
     "status": "pending"
   },
   {
+    "serie": "06_Organizar_tu_mente",
+    "fecha": "2026-10-16",
+    "hora_argentina": "09:00",
+    "publicar_en": "2026-10-16T09:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/06_Organizar_tu_mente__06_1.jpg",
+      "historias-tematicas-ingrediente-psi/06_Organizar_tu_mente__06_2.jpg",
+      "historias-tematicas-ingrediente-psi/06_Organizar_tu_mente__06_3.jpg",
+      "historias-tematicas-ingrediente-psi/06_Organizar_tu_mente__06_4.jpg",
+      "historias-tematicas-ingrediente-psi/06_Organizar_tu_mente__06_5.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "05_Razon_no_empezar_sueno",
+    "fecha": "2026-10-17",
+    "hora_argentina": "09:00",
+    "publicar_en": "2026-10-17T09:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/05_Razon_no_empezar_sueno__05_1.jpg",
+      "historias-tematicas-ingrediente-psi/05_Razon_no_empezar_sueno__05_2.jpg",
+      "historias-tematicas-ingrediente-psi/05_Razon_no_empezar_sueno__05_3.jpg",
+      "historias-tematicas-ingrediente-psi/05_Razon_no_empezar_sueno__05_4.jpg",
+      "historias-tematicas-ingrediente-psi/05_Razon_no_empezar_sueno__05_5.jpg"
+    ],
+    "status": "pending"
+  },
+  {
     "serie": "N05_30_fracasos",
     "fecha": "2026-10-20",
     "hora_argentina": "09:00",
@@ -24,6 +52,20 @@
       "historias-tematicas-ingrediente-psi/N05_30_fracasos__05_3.jpg",
       "historias-tematicas-ingrediente-psi/N05_30_fracasos__05_4.jpg",
       "historias-tematicas-ingrediente-psi/N05_30_fracasos__05_5.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "04_Decision_dificil_v2",
+    "fecha": "2026-10-23",
+    "hora_argentina": "09:00",
+    "publicar_en": "2026-10-23T09:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/04_Decision_dificil_v2__04_1.jpg",
+      "historias-tematicas-ingrediente-psi/04_Decision_dificil_v2__04_2.jpg",
+      "historias-tematicas-ingrediente-psi/04_Decision_dificil_v2__04_3.jpg",
+      "historias-tematicas-ingrediente-psi/04_Decision_dificil_v2__04_4.jpg",
+      "historias-tematicas-ingrediente-psi/04_Decision_dificil_v2__04_5.jpg"
     ],
     "status": "pending"
   },
@@ -66,6 +108,20 @@
       "historias-tematicas-ingrediente-psi/05_Verguenza_precio_de_entrada__05_3.jpg",
       "historias-tematicas-ingrediente-psi/05_Verguenza_precio_de_entrada__05_4.jpg",
       "historias-tematicas-ingrediente-psi/05_Verguenza_precio_de_entrada__05_5.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "07_Cargando_todo_solo",
+    "fecha": "2026-11-06",
+    "hora_argentina": "09:00",
+    "publicar_en": "2026-11-06T09:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/07_Cargando_todo_solo__07_1.jpg",
+      "historias-tematicas-ingrediente-psi/07_Cargando_todo_solo__07_2.jpg",
+      "historias-tematicas-ingrediente-psi/07_Cargando_todo_solo__07_3.jpg",
+      "historias-tematicas-ingrediente-psi/07_Cargando_todo_solo__07_4.jpg",
+      "historias-tematicas-ingrediente-psi/07_Cargando_todo_solo__07_5.jpg"
     ],
     "status": "pending"
   },
@@ -140,6 +196,20 @@
     "status": "pending"
   },
   {
+    "serie": "01_Metas_que_no_se_logran",
+    "fecha": "2026-11-21",
+    "hora_argentina": "09:00",
+    "publicar_en": "2026-11-21T09:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/01_Metas_que_no_se_logran__01_1.jpg",
+      "historias-tematicas-ingrediente-psi/01_Metas_que_no_se_logran__01_2.jpg",
+      "historias-tematicas-ingrediente-psi/01_Metas_que_no_se_logran__01_3.jpg",
+      "historias-tematicas-ingrediente-psi/01_Metas_que_no_se_logran__01_4.jpg",
+      "historias-tematicas-ingrediente-psi/01_Metas_que_no_se_logran__01_5.jpg"
+    ],
+    "status": "pending"
+  },
+  {
     "serie": "N02_Se_la_diferencia",
     "fecha": "2026-11-24",
     "hora_argentina": "09:00",
@@ -150,6 +220,34 @@
       "historias-tematicas-ingrediente-psi/N02_Se_la_diferencia__02_3.jpg",
       "historias-tematicas-ingrediente-psi/N02_Se_la_diferencia__02_4.jpg",
       "historias-tematicas-ingrediente-psi/N02_Se_la_diferencia__02_5.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "02_Destacarte_v2",
+    "fecha": "2026-11-26",
+    "hora_argentina": "09:00",
+    "publicar_en": "2026-11-26T09:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/02_Destacarte_v2__02_1.jpg",
+      "historias-tematicas-ingrediente-psi/02_Destacarte_v2__02_2.jpg",
+      "historias-tematicas-ingrediente-psi/02_Destacarte_v2__02_3.jpg",
+      "historias-tematicas-ingrediente-psi/02_Destacarte_v2__02_4.jpg",
+      "historias-tematicas-ingrediente-psi/02_Destacarte_v2__02_5.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "08_Mismo_lugar_hace_un_anio",
+    "fecha": "2026-11-27",
+    "hora_argentina": "09:00",
+    "publicar_en": "2026-11-27T09:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/08_Mismo_lugar_hace_un_anio__08_1.jpg",
+      "historias-tematicas-ingrediente-psi/08_Mismo_lugar_hace_un_anio__08_2.jpg",
+      "historias-tematicas-ingrediente-psi/08_Mismo_lugar_hace_un_anio__08_3.jpg",
+      "historias-tematicas-ingrediente-psi/08_Mismo_lugar_hace_un_anio__08_4.jpg",
+      "historias-tematicas-ingrediente-psi/08_Mismo_lugar_hace_un_anio__08_5.jpg"
     ],
     "status": "pending"
   }
