@@ -24,8 +24,9 @@ import requests
 HOY = datetime.date.today()
 
 # Cuando quedan menos que esto, hay que recargar.
-# Solo las dos cuentas que le importan al usuario. Psi Krea queda afuera a
-# proposito: no la esta trabajando y avisar por ella era ruido.
+# Ingrediente Psi (ex @psi.krea) volvio a estar activa desde el 07/10/2026:
+# calendario fijo de 49 dias, no hace falta recargar cola, pero si avisar si
+# el token muere o si algo quedo trabado.
 COLAS = [
     ("Diamond reels (@diamondcleaning.gc)", "diamond-queue.json", 5, 15),
     ("Psi Financiero carruseles", "feed-queue.json", 1, 4),
@@ -35,6 +36,16 @@ COLAS = [
 TOKENS = [
     ("DIAMOND_IG_TOKEN", "Diamond (@diamondcleaning.gc)", "2026-10-15"),
     ("PSI_FIN_TOKEN", "Psi Financiero (@psi.financiero)", "2026-10-25"),
+    ("PSI_KREA_TOKEN", "Ingrediente Psi (@psi.krea)", "2026-12-06"),
+]
+
+# Colas de Ingrediente Psi: no se recargan (calendario fijo), pero si quedan
+# pendientes vencidos hace mas de 2 dias sin publicarse, algo esta trabado
+# (cupo diario atascado, token muerto, error silencioso).
+COLAS_VENCIDAS = [
+    ("Ingrediente Psi - posteos", "ingrediente-psi-queue.json"),
+    ("Ingrediente Psi - historias", "ingrediente-psi-historias-queue.json"),
+    ("Ingrediente Psi - frases", "ingrediente-psi-frases-queue.json"),
 ]
 
 DIAS_AVISO = 12   # avisa con margen para que no llegue justo
@@ -78,6 +89,29 @@ for env, nombre, renovar in TOKENS:
             problemas.append(
                 "**%s**: el token vence en %d dias (%s). Renovarlo antes o la "
                 "cuenta deja de publicar sin avisar." % (nombre, faltan, renovar))
+
+# ---- Pendientes vencidos de Ingrediente Psi (atascados) ----
+AHORA = datetime.datetime.now(datetime.timezone.utc)
+for nombre, archivo in COLAS_VENCIDAS:
+    if not os.path.exists(archivo):
+        continue
+    with io.open(archivo, encoding="utf-8-sig") as f:
+        cola = json.load(f)
+    atascados = 0
+    for x in cola:
+        if x.get("status") != "pending":
+            continue
+        try:
+            publicar_en = datetime.datetime.fromisoformat(x["publicar_en"])
+        except (KeyError, ValueError):
+            continue
+        if (AHORA - publicar_en).days >= 2:
+            atascados += 1
+    if atascados:
+        problemas.append(
+            "**%s**: hay %d pendientes vencidos hace mas de 2 dias sin publicarse. "
+            "Revisar el log del workflow, puede ser el token o el cupo diario atascado."
+            % (nombre, atascados))
 
 if problemas:
     print("\n".join("- " + p for p in problemas))
