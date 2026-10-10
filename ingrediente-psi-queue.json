@@ -14,7 +14,7 @@
   },
   {
     "dia": 2,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-10",
     "hora_argentina": "10:00",
     "publicar_en": "2026-10-10T10:00:00-03:00",
@@ -22,7 +22,8 @@
     "archivos": [
       "ingrediente-psi/D02.jpg"
     ],
-    "pie": "En el año 2000, en la Universidad de Cornell, hicieron entrar a unos estudiantes a un aula llena de gente con una remera ridícula puesta. Después les preguntaron cuántos creían que lo habían notado. Calcularon que la mitad. Lo había notado menos de un cuarto.\n\nLe dicen efecto foco: vivimos como si tuviéramos un reflector encima, mientras el resto anda ocupado con lo suyo.\n\nMandáselo a alguien que lleva meses sin lanzar algo por miedo al qué dirán.\n\n#miedoalfracaso #emprender #psicologia"
+    "pie": "En el año 2000, en la Universidad de Cornell, hicieron entrar a unos estudiantes a un aula llena de gente con una remera ridícula puesta. Después les preguntaron cuántos creían que lo habían notado. Calcularon que la mitad. Lo había notado menos de un cuarto.\n\nLe dicen efecto foco: vivimos como si tuviéramos un reflector encima, mientras el resto anda ocupado con lo suyo.\n\nMandáselo a alguien que lleva meses sin lanzar algo por miedo al qué dirán.\n\n#miedoalfracaso #emprender #psicologia",
+    "publicado": "2026-10-10 17:55:10"
   },
   {
     "dia": 3,
