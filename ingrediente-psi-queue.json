@@ -1,7 +1,7 @@
 [
   {
     "dia": 1,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-09",
     "hora_argentina": "19:30",
     "publicar_en": "2026-10-09T19:30:00-03:00",
@@ -9,7 +9,8 @@
     "archivos": [
       "ingrediente-psi/D01.jpg"
     ],
-    "pie": "A veces sentimos que estamos para más y la pecera nos puede quedar chica. Ahí es momento de dar un paso: no podés seguir estático y trabado.\n\n¿Qué te falta?\n¿Qué querés vivir?\n¿Por qué no lo estás viviendo?\n\nTe dejamos estas preguntas para que pienses junto a esta imagen.\n\n#psicologia #cambiodetrabajo #crecimientopersonal #autoconocimiento"
+    "pie": "A veces sentimos que estamos para más y la pecera nos puede quedar chica. Ahí es momento de dar un paso: no podés seguir estático y trabado.\n\n¿Qué te falta?\n¿Qué querés vivir?\n¿Por qué no lo estás viviendo?\n\nTe dejamos estas preguntas para que pienses junto a esta imagen.\n\n#psicologia #cambiodetrabajo #crecimientopersonal #autoconocimiento",
+    "publicado": "2026-10-10 02:02:01"
   },
   {
     "dia": 2,
