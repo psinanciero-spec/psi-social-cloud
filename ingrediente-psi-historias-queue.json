@@ -8,9 +8,10 @@
   },
   {
     "dia": 2,
-    "status": "pending",
+    "status": "published",
     "publicar_en": "2026-10-06T10:00:00-03:00",
-    "archivo": "historias-ingrediente-psi/H02.jpg"
+    "archivo": "historias-ingrediente-psi/H02.jpg",
+    "publicado": "2026-10-10 19:50:06"
   },
   {
     "dia": 3,
