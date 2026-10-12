@@ -43,7 +43,7 @@
   },
   {
     "dia": 4,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-12",
     "hora_argentina": "10:00",
     "publicar_en": "2026-10-12T10:00:00-03:00",
@@ -51,7 +51,8 @@
     "archivos": [
       "ingrediente-psi/D04.jpg"
     ],
-    "pie": "Un ejercicio para hoy a la noche: anotá todos los «sí» que dijiste esta semana. Los grandes y los chiquitos, del «dale, lo veo» al «sí, yo me encargo».\n\nDespués marcá cuáles dijiste porque querías y cuáles porque te dio culpa decir que no.\n\nEsa segunda lista suele explicar el cansancio mejor que cualquier agenda.\n\n#emprendedores #liderazgo #gestiondeltiempo #psicologia"
+    "pie": "Un ejercicio para hoy a la noche: anotá todos los «sí» que dijiste esta semana. Los grandes y los chiquitos, del «dale, lo veo» al «sí, yo me encargo».\n\nDespués marcá cuáles dijiste porque querías y cuáles porque te dio culpa decir que no.\n\nEsa segunda lista suele explicar el cansancio mejor que cualquier agenda.\n\n#emprendedores #liderazgo #gestiondeltiempo #psicologia",
+    "publicado": "2026-10-12 21:45:20"
   },
   {
     "dia": 5,
