@@ -27,7 +27,7 @@
   },
   {
     "dia": 3,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-11",
     "hora_argentina": "19:30",
     "publicar_en": "2026-10-11T19:30:00-03:00",
@@ -38,7 +38,8 @@
       "ingrediente-psi/D03_3.jpg",
       "ingrediente-psi/D03_4.jpg"
     ],
-    "pie": "Unas preguntas para la próxima vez que digas «todavía no»:\n\n¿Cómo te darías cuenta de que llegó el momento?\n¿Qué tendría que pasar antes?\n¿Quién te tendría que dar el visto bueno?\n¿Alguna vez te sentiste totalmente seguro antes de hacer algo por primera vez?\n\nEstar preparado no es una sensación, es una decisión. No esperes sentirlo: ¡tenés que ir a buscarlo!\n\nGuardalo para tener las preguntas a mano.\n\n#emprender #miedoaemprender #emprendedores #psicologia"
+    "pie": "Unas preguntas para la próxima vez que digas «todavía no»:\n\n¿Cómo te darías cuenta de que llegó el momento?\n¿Qué tendría que pasar antes?\n¿Quién te tendría que dar el visto bueno?\n¿Alguna vez te sentiste totalmente seguro antes de hacer algo por primera vez?\n\nEstar preparado no es una sensación, es una decisión. No esperes sentirlo: ¡tenés que ir a buscarlo!\n\nGuardalo para tener las preguntas a mano.\n\n#emprender #miedoaemprender #emprendedores #psicologia",
+    "publicado": "2026-10-12 01:39:23"
   },
   {
     "dia": 4,
