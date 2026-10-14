@@ -56,7 +56,7 @@
   },
   {
     "dia": 5,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-13",
     "hora_argentina": "19:30",
     "publicar_en": "2026-10-13T19:30:00-03:00",
@@ -64,7 +64,8 @@
     "archivos": [
       "ingrediente-psi/D05.jpg"
     ],
-    "pie": "Hoy te proponemos un ejercicio. Agarrá un papel y anotá todo lo que te sale bien sin demasiado esfuerzo.\n\nEsas cosas que hacés casi sin pensar y que a otros les cuestan un montón: escuchar sin juzgar, ordenar un caos, explicar algo difícil con palabras simples, hacer reír a alguien en su peor día, arreglar lo que se rompe.\n\nNo las filtres ni las compares con nadie. Si te trabás, pensá en qué te piden ayuda siempre a vos.\n\nCuando termines, mirá la lista completa. Nos pasa lo mismo que al pez: nos miramos siempre de frente y vemos apenas una rayita. Esta lista es mirarte de costado.\n\nGuardala para los días en que dudes de vos. ¿Cuántas cosas anotaste?\n\n#autoconocimiento #talento #vocacion #psicologia"
+    "pie": "Hoy te proponemos un ejercicio. Agarrá un papel y anotá todo lo que te sale bien sin demasiado esfuerzo.\n\nEsas cosas que hacés casi sin pensar y que a otros les cuestan un montón: escuchar sin juzgar, ordenar un caos, explicar algo difícil con palabras simples, hacer reír a alguien en su peor día, arreglar lo que se rompe.\n\nNo las filtres ni las compares con nadie. Si te trabás, pensá en qué te piden ayuda siempre a vos.\n\nCuando termines, mirá la lista completa. Nos pasa lo mismo que al pez: nos miramos siempre de frente y vemos apenas una rayita. Esta lista es mirarte de costado.\n\nGuardala para los días en que dudes de vos. ¿Cuántas cosas anotaste?\n\n#autoconocimiento #talento #vocacion #psicologia",
+    "publicado": "2026-10-14 01:24:58"
   },
   {
     "dia": 6,
