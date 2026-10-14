@@ -69,7 +69,7 @@
   },
   {
     "dia": 6,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-14",
     "hora_argentina": "11:00",
     "publicar_en": "2026-10-14T11:00:00-03:00",
@@ -77,7 +77,8 @@
     "archivos": [
       "ingrediente-psi/D06.jpg"
     ],
-    "pie": "Cosas que hiciste esta semana para no hacer lo que tenías que hacer: limpiaste la heladera, contestaste mails de 2023, miraste tres videos sobre productividad y reorganizaste las fotos del celular.\n\nLo más gracioso es que esa tarea, la que esquivaste con tanta energía, probablemente te lleve menos tiempo que cualquiera de esas cosas.\n\nSi te sentiste un poco descubierto, guardalo para el lunes.\n\n#procrastinacion #productividad #psicologia"
+    "pie": "Cosas que hiciste esta semana para no hacer lo que tenías que hacer: limpiaste la heladera, contestaste mails de 2023, miraste tres videos sobre productividad y reorganizaste las fotos del celular.\n\nLo más gracioso es que esa tarea, la que esquivaste con tanta energía, probablemente te lleve menos tiempo que cualquiera de esas cosas.\n\nSi te sentiste un poco descubierto, guardalo para el lunes.\n\n#procrastinacion #productividad #psicologia",
+    "publicado": "2026-10-14 18:03:53"
   },
   {
     "dia": 7,
