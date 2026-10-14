@@ -16,7 +16,7 @@ import json
 import os
 
 ARG = datetime.timezone(datetime.timedelta(hours=-3))
-CUPO_MAX = 4
+CUPO_MAX = 5
 
 COLAS = [
     "ingrediente-psi-queue.json",
