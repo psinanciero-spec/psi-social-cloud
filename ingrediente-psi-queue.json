@@ -82,7 +82,7 @@
   },
   {
     "dia": 7,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-15",
     "hora_argentina": "11:00",
     "publicar_en": "2026-10-15T11:00:00-03:00",
@@ -90,7 +90,8 @@
     "archivos": [
       "ingrediente-psi/D07.jpg"
     ],
-    "pie": "Hay momentos en los que el contexto se mueve solo. Te quedás sin trabajo o la economía da un volantazo, y lo que parecía fijo de golpe ya no lo es.\n\nPara alguien que quiere emprender, esos momentos pueden asustar o pueden abrir una puerta. Cuando lo establecido se mueve, también se aflojan las reglas que te frenaban, como «necesito un sueldo fijo» o «acá no se puede».\n\nUn estudio de la Fundación Kauffman encontró que más de la mitad de las empresas de la lista Fortune 500 nacieron durante una recesión o un mercado en baja. Alguien miró el mismo caos que todos y vio otra cosa.\n\n¿Qué se movió en tu vida en el último tiempo que podrías mirar desde otro lado?\n\n#emprender #cambio #emprendedores #crecimientopersonal"
+    "pie": "Hay momentos en los que el contexto se mueve solo. Te quedás sin trabajo o la economía da un volantazo, y lo que parecía fijo de golpe ya no lo es.\n\nPara alguien que quiere emprender, esos momentos pueden asustar o pueden abrir una puerta. Cuando lo establecido se mueve, también se aflojan las reglas que te frenaban, como «necesito un sueldo fijo» o «acá no se puede».\n\nUn estudio de la Fundación Kauffman encontró que más de la mitad de las empresas de la lista Fortune 500 nacieron durante una recesión o un mercado en baja. Alguien miró el mismo caos que todos y vio otra cosa.\n\n¿Qué se movió en tu vida en el último tiempo que podrías mirar desde otro lado?\n\n#emprender #cambio #emprendedores #crecimientopersonal",
+    "publicado": "2026-10-15 17:52:03"
   },
   {
     "dia": 8,
