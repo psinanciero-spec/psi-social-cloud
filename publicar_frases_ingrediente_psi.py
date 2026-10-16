@@ -52,7 +52,7 @@ def main():
         return
 
     if os.environ.get("GITHUB_EVENT_NAME") == "schedule":
-        espera = random.randint(0, 18 * 60)
+        espera = random.randint(0, 90 * 60)
         log(f"Esperando {espera // 60} min {espera % 60} s para no publicar siempre a la misma hora exacta.")
         time.sleep(espera)
 
