@@ -108,7 +108,7 @@
   },
   {
     "dia": 9,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-17",
     "hora_argentina": "10:00",
     "publicar_en": "2026-10-17T10:00:00-03:00",
@@ -116,7 +116,8 @@
     "archivos": [
       "ingrediente-psi/D09.jpg"
     ],
-    "pie": "Un profesor de cerámica dividió a su clase en dos grupos. Al primero le dijo que lo iba a evaluar por cantidad: unos veinte kilos de vasijas, la mejor nota. Al segundo, por calidad: una sola vasija, la mejor posible.\n\nA fin de año, las mejores piezas salieron del grupo de los kilos. Mientras los otros teorizaban sobre la vasija perfecta, ellos hacían, rompían y volvían a hacer.\n\nLa historia está en el libro Art & Fear, y la contamos seguido en las sesiones a gente que lleva años puliendo algo que nunca mostró.\n\n#perfeccionismo #emprender #creatividad"
+    "pie": "Un profesor de cerámica dividió a su clase en dos grupos. Al primero le dijo que lo iba a evaluar por cantidad: unos veinte kilos de vasijas, la mejor nota. Al segundo, por calidad: una sola vasija, la mejor posible.\n\nA fin de año, las mejores piezas salieron del grupo de los kilos. Mientras los otros teorizaban sobre la vasija perfecta, ellos hacían, rompían y volvían a hacer.\n\nLa historia está en el libro Art & Fear, y la contamos seguido en las sesiones a gente que lleva años puliendo algo que nunca mostró.\n\n#perfeccionismo #emprender #creatividad",
+    "publicado": "2026-10-17 17:54:30"
   },
   {
     "dia": 11,
