@@ -95,7 +95,7 @@
   },
   {
     "dia": 8,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-16",
     "hora_argentina": "19:30",
     "publicar_en": "2026-10-16T19:30:00-03:00",
@@ -103,7 +103,8 @@
     "archivos": [
       "ingrediente-psi/D08.jpg"
     ],
-    "pie": "Acordate de la primera vez que manejaste. Las manos transpiradas, el asiento demasiado adelante, mirar los espejos cada dos segundos y rezar para que no se apague en la subida.\n\nHoy manejás mientras pensás qué vas a cocinar.\n\n¿Y si eso que hoy te da miedo se resuelve con solo probar? La capacidad viene después.\n\n#miedo #autoconfianza #emprender #psicologia"
+    "pie": "Acordate de la primera vez que manejaste. Las manos transpiradas, el asiento demasiado adelante, mirar los espejos cada dos segundos y rezar para que no se apague en la subida.\n\nHoy manejás mientras pensás qué vas a cocinar.\n\n¿Y si eso que hoy te da miedo se resuelve con solo probar? La capacidad viene después.\n\n#miedo #autoconfianza #emprender #psicologia",
+    "publicado": "2026-10-17 01:01:36"
   },
   {
     "dia": 9,
