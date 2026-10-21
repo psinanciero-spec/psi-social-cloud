@@ -2,7 +2,7 @@ name: Ingrediente Psi - Historias tematicas (series de 5)
 
 on:
   schedule:
-    - cron: "0 12 * * *"    # 09:00 ARG
+    - cron: "0 0 * * *"     # 21:00 ARG
   workflow_dispatch:
 
 permissions:
