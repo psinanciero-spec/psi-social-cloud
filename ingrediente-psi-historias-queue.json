@@ -128,8 +128,10 @@
   {
     "dia": 22,
     "status": "pending",
-    "publicar_en": "2026-10-26T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H22.jpg"
+    "publicar_en": "2026-10-22T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H22.jpg",
+    "fecha": "2026-10-22",
+    "hora_argentina": "11:00"
   },
   {
     "dia": 23,
@@ -146,8 +148,10 @@
   {
     "dia": 25,
     "status": "pending",
-    "publicar_en": "2026-10-29T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H25.jpg"
+    "publicar_en": "2026-10-24T20:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H25.jpg",
+    "fecha": "2026-10-24",
+    "hora_argentina": "20:00"
   },
   {
     "dia": 26,
@@ -170,8 +174,10 @@
   {
     "dia": 29,
     "status": "pending",
-    "publicar_en": "2026-11-02T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H29.jpg"
+    "publicar_en": "2026-10-26T11:00:00-03:00",
+    "archivo": "historias-ingrediente-psi/H29.jpg",
+    "fecha": "2026-10-26",
+    "hora_argentina": "11:00"
   },
   {
     "dia": 30,
@@ -188,8 +194,10 @@
   {
     "dia": 32,
     "status": "pending",
-    "publicar_en": "2026-11-05T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H32.jpg"
+    "publicar_en": "2026-10-28T09:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H32.jpg",
+    "fecha": "2026-10-28",
+    "hora_argentina": "09:30"
   },
   {
     "dia": 33,
