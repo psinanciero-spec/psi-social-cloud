@@ -86,8 +86,9 @@
   {
     "dia": 14,
     "status": "pending",
-    "publicar_en": "2026-10-18T11:00:00-03:00",
-    "archivo": "historias-ingrediente-psi/H14.jpg"
+    "publicar_en": "2026-10-18T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H14.jpg",
+    "fecha": "2026-10-18"
   },
   {
     "dia": 15,
@@ -98,14 +99,16 @@
   {
     "dia": 17,
     "status": "pending",
-    "publicar_en": "2026-10-21T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H17.jpg"
+    "publicar_en": "2026-10-20T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H17.jpg",
+    "fecha": "2026-10-20"
   },
   {
     "dia": 18,
     "status": "pending",
-    "publicar_en": "2026-10-22T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H18.jpg"
+    "publicar_en": "2026-10-21T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H18.jpg",
+    "fecha": "2026-10-21"
   },
   {
     "dia": 19,
@@ -116,14 +119,16 @@
   {
     "dia": 20,
     "status": "pending",
-    "publicar_en": "2026-10-24T11:00:00-03:00",
-    "archivo": "historias-ingrediente-psi/H20.jpg"
+    "publicar_en": "2026-10-25T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H20.jpg",
+    "fecha": "2026-10-25"
   },
   {
     "dia": 21,
     "status": "pending",
-    "publicar_en": "2026-10-25T11:00:00-03:00",
-    "archivo": "historias-ingrediente-psi/H21.jpg"
+    "publicar_en": "2026-10-27T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H21.jpg",
+    "fecha": "2026-10-27"
   },
   {
     "dia": 22,
@@ -136,14 +141,16 @@
   {
     "dia": 23,
     "status": "pending",
-    "publicar_en": "2026-10-27T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H23.jpg"
+    "publicar_en": "2026-10-29T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H23.jpg",
+    "fecha": "2026-10-29"
   },
   {
     "dia": 24,
     "status": "pending",
-    "publicar_en": "2026-10-28T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H24.jpg"
+    "publicar_en": "2026-10-30T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H24.jpg",
+    "fecha": "2026-10-30"
   },
   {
     "dia": 25,
@@ -156,20 +163,23 @@
   {
     "dia": 26,
     "status": "pending",
-    "publicar_en": "2026-10-30T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H26.jpg"
+    "publicar_en": "2026-10-31T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H26.jpg",
+    "fecha": "2026-10-31"
   },
   {
     "dia": 27,
     "status": "pending",
-    "publicar_en": "2026-10-31T11:00:00-03:00",
-    "archivo": "historias-ingrediente-psi/H27.jpg"
+    "publicar_en": "2026-11-01T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H27.jpg",
+    "fecha": "2026-11-01"
   },
   {
     "dia": 28,
     "status": "pending",
-    "publicar_en": "2026-11-01T11:00:00-03:00",
-    "archivo": "historias-ingrediente-psi/H28.jpg"
+    "publicar_en": "2026-11-02T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H28.jpg",
+    "fecha": "2026-11-02"
   },
   {
     "dia": 29,
@@ -202,62 +212,72 @@
   {
     "dia": 33,
     "status": "pending",
-    "publicar_en": "2026-11-06T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H33.jpg"
+    "publicar_en": "2026-11-05T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H33.jpg",
+    "fecha": "2026-11-05"
   },
   {
     "dia": 34,
     "status": "pending",
-    "publicar_en": "2026-11-07T11:00:00-03:00",
-    "archivo": "historias-ingrediente-psi/H34.jpg"
+    "publicar_en": "2026-11-06T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H34.jpg",
+    "fecha": "2026-11-06"
   },
   {
     "dia": 35,
     "status": "pending",
-    "publicar_en": "2026-11-08T11:00:00-03:00",
-    "archivo": "historias-ingrediente-psi/H35.jpg"
+    "publicar_en": "2026-11-07T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H35.jpg",
+    "fecha": "2026-11-07"
   },
   {
     "dia": 36,
     "status": "pending",
-    "publicar_en": "2026-11-09T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H36.jpg"
+    "publicar_en": "2026-11-08T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H36.jpg",
+    "fecha": "2026-11-08"
   },
   {
     "dia": 38,
     "status": "pending",
-    "publicar_en": "2026-11-11T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H38.jpg"
+    "publicar_en": "2026-11-09T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H38.jpg",
+    "fecha": "2026-11-09"
   },
   {
     "dia": 39,
     "status": "pending",
-    "publicar_en": "2026-11-12T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H39.jpg"
+    "publicar_en": "2026-11-10T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H39.jpg",
+    "fecha": "2026-11-10"
   },
   {
     "dia": 40,
     "status": "pending",
-    "publicar_en": "2026-11-13T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H40.jpg"
+    "publicar_en": "2026-11-11T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H40.jpg",
+    "fecha": "2026-11-11"
   },
   {
     "dia": 41,
     "status": "pending",
-    "publicar_en": "2026-11-14T11:00:00-03:00",
-    "archivo": "historias-ingrediente-psi/H41.jpg"
+    "publicar_en": "2026-11-12T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H41.jpg",
+    "fecha": "2026-11-12"
   },
   {
     "dia": 42,
     "status": "pending",
-    "publicar_en": "2026-11-15T11:00:00-03:00",
-    "archivo": "historias-ingrediente-psi/H42.jpg"
+    "publicar_en": "2026-11-13T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H42.jpg",
+    "fecha": "2026-11-13"
   },
   {
     "dia": 43,
     "status": "pending",
-    "publicar_en": "2026-11-16T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H43.jpg"
+    "publicar_en": "2026-11-14T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H43.jpg",
+    "fecha": "2026-11-14"
   },
   {
     "dia": 44,
@@ -269,20 +289,23 @@
   {
     "dia": 45,
     "status": "pending",
-    "publicar_en": "2026-11-18T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H45.jpg"
+    "publicar_en": "2026-11-15T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H45.jpg",
+    "fecha": "2026-11-15"
   },
   {
     "dia": 46,
     "status": "pending",
-    "publicar_en": "2026-11-19T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H46.jpg"
+    "publicar_en": "2026-11-16T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H46.jpg",
+    "fecha": "2026-11-16"
   },
   {
     "dia": 47,
     "status": "pending",
-    "publicar_en": "2026-11-20T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H47.jpg"
+    "publicar_en": "2026-11-17T19:30:00-03:00",
+    "archivo": "historias-ingrediente-psi/H47.jpg",
+    "fecha": "2026-11-17"
   },
   {
     "dia": 49,
