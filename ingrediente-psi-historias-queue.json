@@ -93,9 +93,10 @@
   },
   {
     "dia": 15,
-    "status": "pending",
+    "status": "published",
     "publicar_en": "2026-10-19T19:30:00-03:00",
-    "archivo": "historias-ingrediente-psi/H15.jpg"
+    "archivo": "historias-ingrediente-psi/H15.jpg",
+    "publicado": "2026-10-22 20:02:40"
   },
   {
     "dia": 17,
