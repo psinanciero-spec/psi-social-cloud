@@ -2,9 +2,11 @@ name: Ingrediente Psi - Publicar historias
 
 on:
   schedule:
-    # 13:00 ARG. Cada historia repite la imagen de un posteo ~3 semanas
-    # despues, nunca el mismo dia que el posteo.
-    - cron: "0 16 * * *"
+    # Dos corridas por dia: desde que el carrusel suma una historia extra
+    # cada 2 dias, a veces hay 2 historias el mismo dia y una sola corrida
+    # las iba atrasando un dia entero.
+    - cron: "0 16 * * *"    # 13:00 ARG
+    - cron: "0 21 * * *"    # 18:00 ARG
   workflow_dispatch:
 
 permissions:
