@@ -245,9 +245,9 @@
   {
     "dia": 22,
     "status": "pending",
-    "fecha": "2026-10-26",
-    "hora_argentina": "11:00",
-    "publicar_en": "2026-10-26T11:00:00-03:00",
+    "fecha": "2026-10-22",
+    "hora_argentina": "10:00",
+    "publicar_en": "2026-10-22T10:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/D22_1.jpg",
@@ -284,9 +284,9 @@
   {
     "dia": 25,
     "status": "pending",
-    "fecha": "2026-10-28",
-    "hora_argentina": "19:30",
-    "publicar_en": "2026-10-28T19:30:00-03:00",
+    "fecha": "2026-10-24",
+    "hora_argentina": "10:00",
+    "publicar_en": "2026-10-24T10:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/D25_1.jpg",
@@ -335,9 +335,9 @@
   {
     "dia": 29,
     "status": "pending",
-    "fecha": "2026-10-30",
+    "fecha": "2026-10-26",
     "hora_argentina": "10:00",
-    "publicar_en": "2026-10-30T10:00:00-03:00",
+    "publicar_en": "2026-10-26T10:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/D29_1.jpg",
@@ -374,9 +374,9 @@
   {
     "dia": 32,
     "status": "pending",
-    "fecha": "2026-11-01",
+    "fecha": "2026-10-28",
     "hora_argentina": "10:00",
-    "publicar_en": "2026-11-01T10:00:00-03:00",
+    "publicar_en": "2026-10-28T10:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/D32_1.jpg",
