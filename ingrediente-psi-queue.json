@@ -173,7 +173,7 @@
   },
   {
     "dia": 15,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-23",
     "hora_argentina": "19:30",
     "publicar_en": "2026-10-23T19:30:00-03:00",
@@ -181,7 +181,8 @@
     "archivos": [
       "ingrediente-psi/D15.jpg"
     ],
-    "pie": "Tenés la propuesta lista hace semanas. Solo falta mandarla, y cada vez que vas a hacerlo aparece algo para corregir: el precio o alguna palabra.\n\nMientras no la mandes, nadie te puede decir que no. Y ese «no» es lo que asusta, porque se siente como una respuesta sobre vos: si sos capaz, si alcanzás.\n\nEl psicólogo Martin Covington lo estudió durante años con estudiantes: muchos preferían no prepararse antes que esforzarse y que les fuera mal. Si no estudiaste y te va mal, la culpa es de no haber estudiado. Si diste todo y te va mal, la duda cae sobre vos.\n\nAhí ayuda mirar qué miedo hay detrás de eso que postergás.\n\n¿Qué tenés listo hace rato y todavía no mostraste?\n\n#procrastinacion #autosabotaje #psicologia"
+    "pie": "Tenés la propuesta lista hace semanas. Solo falta mandarla, y cada vez que vas a hacerlo aparece algo para corregir: el precio o alguna palabra.\n\nMientras no la mandes, nadie te puede decir que no. Y ese «no» es lo que asusta, porque se siente como una respuesta sobre vos: si sos capaz, si alcanzás.\n\nEl psicólogo Martin Covington lo estudió durante años con estudiantes: muchos preferían no prepararse antes que esforzarse y que les fuera mal. Si no estudiaste y te va mal, la culpa es de no haber estudiado. Si diste todo y te va mal, la duda cae sobre vos.\n\nAhí ayuda mirar qué miedo hay detrás de eso que postergás.\n\n¿Qué tenés listo hace rato y todavía no mostraste?\n\n#procrastinacion #autosabotaje #psicologia",
+    "publicado": "2026-10-24 01:11:00"
   },
   {
     "dia": 17,
