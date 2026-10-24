@@ -286,7 +286,7 @@
   },
   {
     "dia": 25,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-24",
     "hora_argentina": "10:00",
     "publicar_en": "2026-10-24T10:00:00-03:00",
@@ -297,7 +297,8 @@
       "ingrediente-psi/D25_3.jpg",
       "ingrediente-psi/D25_4.jpg"
     ],
-    "pie": "Así es la sesión, para que sepas qué esperar.\n\nLa charla es con Nico, que es psicólogo, y dura alrededor de una hora. Hablamos de tus ideas y proyectos. De lo que te motiva, y también de lo que te traba. Él te va a ayudar a entender de dónde viene ese freno y a encontrar otras posibilidades y recursos para avanzar.\n\nNo hace falta que tengas la idea clara ni que quieras hacer terapia. Tampoco hay que preparar nada. Al final te llevás un primer paso concreto.\n\nEs gratis, sin letra chica, y si después no querés seguir, no pasa nada. Si querés tu lugar, comentá «PSI» y te escribimos.\n\n#emprender #emprendedores #miedoaemprender #psicologia"
+    "pie": "Así es la sesión, para que sepas qué esperar.\n\nLa charla es con Nico, que es psicólogo, y dura alrededor de una hora. Hablamos de tus ideas y proyectos. De lo que te motiva, y también de lo que te traba. Él te va a ayudar a entender de dónde viene ese freno y a encontrar otras posibilidades y recursos para avanzar.\n\nNo hace falta que tengas la idea clara ni que quieras hacer terapia. Tampoco hay que preparar nada. Al final te llevás un primer paso concreto.\n\nEs gratis, sin letra chica, y si después no querés seguir, no pasa nada. Si querés tu lugar, comentá «PSI» y te escribimos.\n\n#emprender #emprendedores #miedoaemprender #psicologia",
+    "publicado": "2026-10-24 17:16:55"
   },
   {
     "dia": 26,
