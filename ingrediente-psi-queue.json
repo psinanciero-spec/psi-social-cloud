@@ -199,7 +199,7 @@
   },
   {
     "dia": 18,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-25",
     "hora_argentina": "19:30",
     "publicar_en": "2026-10-25T19:30:00-03:00",
@@ -207,7 +207,8 @@
     "archivos": [
       "ingrediente-psi/D18.jpg"
     ],
-    "pie": "Es una de las cosas que más escuchamos en consulta. Alguien llega con un proyecto que viene pensando hace años. Cuando le preguntamos por qué no arrancó, la respuesta casi siempre es la misma: estaba esperando el momento.\n\nPrimero era cuando terminara la carrera. Después, cuando tuviera algo de plata ahorrada. Cada vez que se cumple una condición aparece otra, y sin darse cuenta pasan siete u ocho años.\n\nEse momento tiene una trampa: se corre cada vez que te acercás. Mientras tanto el proyecto envejece en la cabeza, y cuesta cada vez más creer que algún día va a salir.\n\n¿Cuánto hace que estás esperando el tuyo?\n\n#procrastinacion #emprender #gestiondeltiempo"
+    "pie": "Es una de las cosas que más escuchamos en consulta. Alguien llega con un proyecto que viene pensando hace años. Cuando le preguntamos por qué no arrancó, la respuesta casi siempre es la misma: estaba esperando el momento.\n\nPrimero era cuando terminara la carrera. Después, cuando tuviera algo de plata ahorrada. Cada vez que se cumple una condición aparece otra, y sin darse cuenta pasan siete u ocho años.\n\nEse momento tiene una trampa: se corre cada vez que te acercás. Mientras tanto el proyecto envejece en la cabeza, y cuesta cada vez más creer que algún día va a salir.\n\n¿Cuánto hace que estás esperando el tuyo?\n\n#procrastinacion #emprender #gestiondeltiempo",
+    "publicado": "2026-10-26 00:55:52"
   },
   {
     "dia": 19,
