@@ -225,7 +225,7 @@
   },
   {
     "dia": 20,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-27",
     "hora_argentina": "11:00",
     "publicar_en": "2026-10-27T11:00:00-03:00",
@@ -233,7 +233,8 @@
     "archivos": [
       "ingrediente-psi/D20.jpg"
     ],
-    "pie": "Cuando tenemos una idea nueva, el impulso es contársela a los de siempre, como la amiga de toda la vida o la pareja. Gente que nos quiere, aunque no siempre sea la indicada para opinar sobre eso.\n\nA veces la persona correcta es alguien medio random, pero cuya opinión te importa. O alguien que sabés que te hace bien cada vez que hablan.\n\nSi le contás tu idea a cualquiera, vas a recibir cualquier respuesta. Una idea que recién nace necesita gente que la cuide, así que elegí bien a quién se la mostrás.\n\n¿A quién sí le mostrarías tu idea hoy?\n\n#emprender #ideas #emprendedores"
+    "pie": "Cuando tenemos una idea nueva, el impulso es contársela a los de siempre, como la amiga de toda la vida o la pareja. Gente que nos quiere, aunque no siempre sea la indicada para opinar sobre eso.\n\nA veces la persona correcta es alguien medio random, pero cuya opinión te importa. O alguien que sabés que te hace bien cada vez que hablan.\n\nSi le contás tu idea a cualquiera, vas a recibir cualquier respuesta. Una idea que recién nace necesita gente que la cuide, así que elegí bien a quién se la mostrás.\n\n¿A quién sí le mostrarías tu idea hoy?\n\n#emprender #ideas #emprendedores",
+    "publicado": "2026-10-27 19:26:06"
   },
   {
     "dia": 21,
