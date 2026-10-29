@@ -238,7 +238,7 @@
   },
   {
     "dia": 21,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-28",
     "hora_argentina": "11:00",
     "publicar_en": "2026-10-28T11:00:00-03:00",
@@ -246,7 +246,8 @@
     "archivos": [
       "ingrediente-psi/D21.jpg"
     ],
-    "pie": "Casi todos tenemos a alguien así en la historia. La profe que te dijo que escribías bien, o la tía que fue a ver tu obra aunque no fue nadie más.\n\nCuesta medir cuánto cambia una sola persona que cree en lo que hacés antes de que exista. Y cuesta todavía más ver quién, en tu entorno de hoy, está haciendo el papel contrario.\n\nSi se te vino alguien a la cabeza, mandáselo. Puede que nunca le hayas dicho que fue importante.\n\n#emprender #crecimientopersonal #psicologia"
+    "pie": "Casi todos tenemos a alguien así en la historia. La profe que te dijo que escribías bien, o la tía que fue a ver tu obra aunque no fue nadie más.\n\nCuesta medir cuánto cambia una sola persona que cree en lo que hacés antes de que exista. Y cuesta todavía más ver quién, en tu entorno de hoy, está haciendo el papel contrario.\n\nSi se te vino alguien a la cabeza, mandáselo. Puede que nunca le hayas dicho que fue importante.\n\n#emprender #crecimientopersonal #psicologia",
+    "publicado": "2026-10-29 02:48:05"
   },
   {
     "dia": 22,
