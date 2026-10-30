@@ -267,7 +267,7 @@
   },
   {
     "dia": 23,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-29",
     "hora_argentina": "19:30",
     "publicar_en": "2026-10-29T19:30:00-03:00",
@@ -275,7 +275,8 @@
     "archivos": [
       "ingrediente-psi/D23.jpg"
     ],
-    "pie": "Un experimento clásico, contado simple. En los años cincuenta, Solomon Asch juntaba a un grupo en una sala y les mostraba una línea. Después, tres más: había que decir cuál medía lo mismo que la primera. Respondiendo solos, prácticamente todos acertaban.\n\nEl truco era que en cada grupo había una sola persona de verdad. El resto eran actores que, en algunas rondas, daban a propósito la respuesta equivocada.\n\nTres de cada cuatro participantes siguieron al grupo al menos una vez, aunque sus propios ojos les decían otra cosa.\n\nCuando se trata de tu vida, tu mirada tiene que pesar más que la del resto. Se armó con tu historia y con lo que te importa, y nadie más la tiene igual. Podés escuchar a todos y aun así decidir desde lo que ves vos.\n\n¿Qué te convoca hoy? ¿Qué te importa a vos?\n\n#autenticidad #psicologia #autoconocimiento"
+    "pie": "Un experimento clásico, contado simple. En los años cincuenta, Solomon Asch juntaba a un grupo en una sala y les mostraba una línea. Después, tres más: había que decir cuál medía lo mismo que la primera. Respondiendo solos, prácticamente todos acertaban.\n\nEl truco era que en cada grupo había una sola persona de verdad. El resto eran actores que, en algunas rondas, daban a propósito la respuesta equivocada.\n\nTres de cada cuatro participantes siguieron al grupo al menos una vez, aunque sus propios ojos les decían otra cosa.\n\nCuando se trata de tu vida, tu mirada tiene que pesar más que la del resto. Se armó con tu historia y con lo que te importa, y nadie más la tiene igual. Podés escuchar a todos y aun así decidir desde lo que ves vos.\n\n¿Qué te convoca hoy? ¿Qué te importa a vos?\n\n#autenticidad #psicologia #autoconocimiento",
+    "publicado": "2026-10-30 02:29:09"
   },
   {
     "dia": 24,
