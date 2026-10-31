@@ -280,7 +280,7 @@
   },
   {
     "dia": 24,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-10-30",
     "hora_argentina": "19:30",
     "publicar_en": "2026-10-30T19:30:00-03:00",
@@ -288,7 +288,8 @@
     "archivos": [
       "ingrediente-psi/D24.jpg"
     ],
-    "pie": "Dos preguntas para la próxima vez que estés dando vueltas con algo:\n\n¿Estos pensamientos te suman o te restan?\n¿Haciendo vas a encontrar más información que pensando?\n\nCuando el pensamiento repite lo mismo con otras palabras, en psicología lo llamamos rumiación. Se siente como estar trabajando en el problema, pero casi nunca trae datos nuevos.\n\nGuardalo para cuando estés a la una de la mañana con el mismo tema.\n\n#sobrepensar #ansiedad #psicologia"
+    "pie": "Dos preguntas para la próxima vez que estés dando vueltas con algo:\n\n¿Estos pensamientos te suman o te restan?\n¿Haciendo vas a encontrar más información que pensando?\n\nCuando el pensamiento repite lo mismo con otras palabras, en psicología lo llamamos rumiación. Se siente como estar trabajando en el problema, pero casi nunca trae datos nuevos.\n\nGuardalo para cuando estés a la una de la mañana con el mismo tema.\n\n#sobrepensar #ansiedad #psicologia",
+    "publicado": "2026-10-31 02:11:33"
   },
   {
     "dia": 25,
