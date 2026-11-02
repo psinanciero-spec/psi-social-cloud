@@ -335,7 +335,7 @@
   },
   {
     "dia": 28,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-02",
     "hora_argentina": "11:00",
     "publicar_en": "2026-11-02T11:00:00-03:00",
@@ -343,7 +343,8 @@
     "archivos": [
       "ingrediente-psi/D28.jpg"
     ],
-    "pie": "Roger Federer ganó casi el 80 % de los partidos que jugó como profesional. Si contás los puntos, ganó apenas el 54 %.\n\nLo contó en 2024, en un discurso para estudiantes: cuando perdés casi la mitad de los puntos, aprendés a no quedarte pegado a cada error. Una doble falta es solo un punto. Mientras lo jugás, ese punto es lo más importante del mundo, y cuando ya pasó, quedó atrás.\n\nMuchos tenistas tienen un ritual entre punto y punto para eso: respiran y se acomodan las cuerdas de la raqueta antes de volver a sacar.\n\n¿Qué punto de ayer seguís jugando hoy?\n\n#inteligenciaemocional #resiliencia #psicologia"
+    "pie": "Roger Federer ganó casi el 80 % de los partidos que jugó como profesional. Si contás los puntos, ganó apenas el 54 %.\n\nLo contó en 2024, en un discurso para estudiantes: cuando perdés casi la mitad de los puntos, aprendés a no quedarte pegado a cada error. Una doble falta es solo un punto. Mientras lo jugás, ese punto es lo más importante del mundo, y cuando ya pasó, quedó atrás.\n\nMuchos tenistas tienen un ritual entre punto y punto para eso: respiran y se acomodan las cuerdas de la raqueta antes de volver a sacar.\n\n¿Qué punto de ayer seguís jugando hoy?\n\n#inteligenciaemocional #resiliencia #psicologia",
+    "publicado": "2026-11-02 23:22:28"
   },
   {
     "dia": 29,
