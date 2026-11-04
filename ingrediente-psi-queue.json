@@ -364,7 +364,7 @@
   },
   {
     "dia": 30,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-03",
     "hora_argentina": "19:30",
     "publicar_en": "2026-11-03T19:30:00-03:00",
@@ -372,7 +372,8 @@
     "archivos": [
       "ingrediente-psi/D30.jpg"
     ],
-    "pie": "Abriste el mail para mandar una sola cosa. Viste otro mail, lo contestaste, te acordaste de un WhatsApp pendiente, entraste a buscar un dato y apareció una notificación. Una hora después, lo que ibas a mandar sigue en borradores.\n\nSophie Leroy, investigadora en comportamiento organizacional, llama residuo atencional a lo que queda pegado de cada cosa que dejaste por la mitad.\n\nSi alguien de tu equipo vive así, ya sabés a quién mandárselo.\n\n#productividad #foco #emprendedores #liderazgo"
+    "pie": "Abriste el mail para mandar una sola cosa. Viste otro mail, lo contestaste, te acordaste de un WhatsApp pendiente, entraste a buscar un dato y apareció una notificación. Una hora después, lo que ibas a mandar sigue en borradores.\n\nSophie Leroy, investigadora en comportamiento organizacional, llama residuo atencional a lo que queda pegado de cada cosa que dejaste por la mitad.\n\nSi alguien de tu equipo vive así, ya sabés a quién mandárselo.\n\n#productividad #foco #emprendedores #liderazgo",
+    "publicado": "2026-11-04 02:50:37"
   },
   {
     "dia": 31,
