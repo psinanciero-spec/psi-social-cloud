@@ -246,10 +246,11 @@
   },
   {
     "dia": 35,
-    "status": "pending",
+    "status": "published",
     "publicar_en": "2026-11-03T19:30:00-03:00",
     "archivo": "historias-ingrediente-psi/H35.jpg",
-    "fecha": "2026-11-03"
+    "fecha": "2026-11-03",
+    "publicado": "2026-11-04 02:03:53"
   },
   {
     "dia": 36,
