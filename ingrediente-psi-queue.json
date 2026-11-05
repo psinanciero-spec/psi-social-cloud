@@ -377,7 +377,7 @@
   },
   {
     "dia": 31,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-04",
     "hora_argentina": "19:30",
     "publicar_en": "2026-11-04T19:30:00-03:00",
@@ -385,7 +385,8 @@
     "archivos": [
       "ingrediente-psi/D31.jpg"
     ],
-    "pie": "Diez minutos y un papel alcanzan para descubrir en qué se te va la energía.\n\nAnotá todo lo que hiciste ayer, desde que te levantaste. Después marcá cada cosa con un signo:\n\n+ si te sumó: te dejó con más energía o te acercó a algo que querés.\n– si te drenó: te dejó cansado o con la sensación de tiempo perdido.\n0 si no hizo nada: ni sumó ni restó, solo llenó el rato.\n\nMirá dónde se juntan los «–» y los «0». Ahí están tus distracciones, y suelen repetirse a la misma hora.\n\n¿Cuál apareció más veces de lo que pensabas?\n\n#disciplina #habitos #productividad"
+    "pie": "Diez minutos y un papel alcanzan para descubrir en qué se te va la energía.\n\nAnotá todo lo que hiciste ayer, desde que te levantaste. Después marcá cada cosa con un signo:\n\n+ si te sumó: te dejó con más energía o te acercó a algo que querés.\n– si te drenó: te dejó cansado o con la sensación de tiempo perdido.\n0 si no hizo nada: ni sumó ni restó, solo llenó el rato.\n\nMirá dónde se juntan los «–» y los «0». Ahí están tus distracciones, y suelen repetirse a la misma hora.\n\n¿Cuál apareció más veces de lo que pensabas?\n\n#disciplina #habitos #productividad",
+    "publicado": "2026-11-05 02:45:21"
   },
   {
     "dia": 32,
