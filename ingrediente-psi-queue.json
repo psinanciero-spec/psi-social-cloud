@@ -419,7 +419,7 @@
   },
   {
     "dia": 34,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-06",
     "hora_argentina": "11:00",
     "publicar_en": "2026-11-06T11:00:00-03:00",
@@ -427,7 +427,8 @@
     "archivos": [
       "ingrediente-psi/D34.jpg"
     ],
-    "pie": "Tony Robbins suele hablar del sistema de activación reticular, una red de neuronas en la base del cerebro que regula qué tan alerta estás. Según él, funciona como un filtro: de todo lo que pasa a tu alrededor, te deja ver lo que vos marcaste como importante.\n\nLa psicología tiene un experimento famoso sobre cómo filtra la atención. Daniel Simons y Christopher Chabris pidieron contar los pases de un equipo de básquet en un video. En el medio, alguien disfrazado de gorila cruzaba la escena y se golpeaba el pecho. La mitad de los participantes ni lo vio.\n\nCon tu semana pasa algo parecido: si la atención se queda en el error, el resto se vuelve invisible. La buena noticia es que el foco se entrena. Martin Seligman le pidió a un grupo que escribiera cada noche, durante una semana, tres cosas que les habían salido bien. Seis meses después se sentían más felices que quienes hicieron otro ejercicio.\n\n¿Dónde hiciste foco esta semana sin darte cuenta?\n\n#psicologia #atencion #autoestima"
+    "pie": "Tony Robbins suele hablar del sistema de activación reticular, una red de neuronas en la base del cerebro que regula qué tan alerta estás. Según él, funciona como un filtro: de todo lo que pasa a tu alrededor, te deja ver lo que vos marcaste como importante.\n\nLa psicología tiene un experimento famoso sobre cómo filtra la atención. Daniel Simons y Christopher Chabris pidieron contar los pases de un equipo de básquet en un video. En el medio, alguien disfrazado de gorila cruzaba la escena y se golpeaba el pecho. La mitad de los participantes ni lo vio.\n\nCon tu semana pasa algo parecido: si la atención se queda en el error, el resto se vuelve invisible. La buena noticia es que el foco se entrena. Martin Seligman le pidió a un grupo que escribiera cada noche, durante una semana, tres cosas que les habían salido bien. Seis meses después se sentían más felices que quienes hicieron otro ejercicio.\n\n¿Dónde hiciste foco esta semana sin darte cuenta?\n\n#psicologia #atencion #autoestima",
+    "publicado": "2026-11-06 21:05:31"
   },
   {
     "dia": 35,
