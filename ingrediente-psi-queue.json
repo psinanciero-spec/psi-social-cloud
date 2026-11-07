@@ -432,7 +432,7 @@
   },
   {
     "dia": 35,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-07",
     "hora_argentina": "11:00",
     "publicar_en": "2026-11-07T11:00:00-03:00",
@@ -440,7 +440,8 @@
     "archivos": [
       "ingrediente-psi/D35.jpg"
     ],
-    "pie": "En las asesorías vemos mucho este caso: alguien con un proyecto enorme en mente y semanas sin dar un solo paso. Cuanto más grande es el plan, más pesa no estar haciéndolo.\n\nLo trabajamos en tres pasos:\n\nMente: buscamos qué creencia o qué miedo está frenando la acción. Seguido es la idea de que hay que esperar a que todo esté listo.\nDirección: de todo lo que hay en la lista, elegimos por dónde arrancar.\nExperiencia: definimos el paso más chico posible para probar la idea esta semana, sin poner plata ni comprometer todo.\n\nCon un primer paso y una fecha, ese ruido de fondo empieza a bajar.\n\n¿Cuál sería el tuyo?\n\n#ansiedad #productividad #emprender"
+    "pie": "En las asesorías vemos mucho este caso: alguien con un proyecto enorme en mente y semanas sin dar un solo paso. Cuanto más grande es el plan, más pesa no estar haciéndolo.\n\nLo trabajamos en tres pasos:\n\nMente: buscamos qué creencia o qué miedo está frenando la acción. Seguido es la idea de que hay que esperar a que todo esté listo.\nDirección: de todo lo que hay en la lista, elegimos por dónde arrancar.\nExperiencia: definimos el paso más chico posible para probar la idea esta semana, sin poner plata ni comprometer todo.\n\nCon un primer paso y una fecha, ese ruido de fondo empieza a bajar.\n\n¿Cuál sería el tuyo?\n\n#ansiedad #productividad #emprender",
+    "publicado": "2026-11-07 19:20:41"
   },
   {
     "dia": 36,
