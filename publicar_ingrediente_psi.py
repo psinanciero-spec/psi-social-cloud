@@ -38,6 +38,27 @@ def url_publica(path):
     return RAW_BASE + path.replace("\\", "/")
 
 
+ARG = datetime.timezone(datetime.timedelta(hours=-3))
+
+
+def ya_publico_hoy(cola, hoy_arg, es_carrusel):
+    """Ya salio un posteo del MISMO tipo hoy (hora ARG). El dibujo diario y
+    el carrusel cada 2 dias conviven el mismo dia a proposito, pero dos
+    dibujos (o dos carruseles) el mismo dia no: un atraso de unas horas
+    puede empujar un posteo justo despues de medianoche y duplicar el
+    posteo diario de ese tipo."""
+    for x in cola:
+        if x["status"] != "published" or not x.get("publicado"):
+            continue
+        if (len(x["archivos"]) > 1) != es_carrusel:
+            continue
+        publicado_utc = datetime.datetime.strptime(x["publicado"], "%Y-%m-%d %H:%M:%S")
+        publicado_utc = publicado_utc.replace(tzinfo=datetime.timezone.utc)
+        if publicado_utc.astimezone(ARG).date() == hoy_arg:
+            return x["dia"]
+    return None
+
+
 def main():
     with open(QUEUE_FILE, encoding="utf-8-sig") as f:
         cola = json.load(f)
@@ -58,6 +79,15 @@ def main():
 
     pendientes_vencidos.sort(key=lambda t: t[0])
     _, nxt = pendientes_vencidos[0]
+
+    hoy_arg = ahora.astimezone(ARG).date()
+    es_carrusel = len(nxt["archivos"]) > 1
+    dia_ya_publicado = ya_publico_hoy(cola, hoy_arg, es_carrusel)
+    if dia_ya_publicado is not None:
+        tipo = "carrusel" if es_carrusel else "dibujo"
+        log(f"Ya se publico un {tipo} hoy (dia {dia_ya_publicado}, {hoy_arg} ARG). "
+            f"No se publica un segundo {tipo} el mismo dia aunque este vencido. Se reintenta en la proxima corrida.")
+        return
 
     if not hay_cupo():
         log(f"Cupo diario alcanzado ({publicados_hoy()}/{CUPO_MAX} entre posteos+historias+frases). Se reintenta manana.")
