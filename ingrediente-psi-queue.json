@@ -458,7 +458,7 @@
   },
   {
     "dia": 38,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-09",
     "hora_argentina": "19:30",
     "publicar_en": "2026-11-09T19:30:00-03:00",
@@ -466,7 +466,8 @@
     "archivos": [
       "ingrediente-psi/D38.jpg"
     ],
-    "pie": "Teresa Amabile, de Harvard, les pidió a 238 personas que trabajaban en proyectos creativos que escribieran un diario al final de cada jornada. Juntó casi 12.000 entradas. Lo que más levantaba el ánimo en un día cualquiera era sentir que habían avanzado en algo que les importaba, aunque fuera poco.\n\nLo llamó el principio del progreso.\n\n¿Qué avanzaste hoy, aunque haya sido poquito?\n\n#motivacion #progreso #emprender"
+    "pie": "Teresa Amabile, de Harvard, les pidió a 238 personas que trabajaban en proyectos creativos que escribieran un diario al final de cada jornada. Juntó casi 12.000 entradas. Lo que más levantaba el ánimo en un día cualquiera era sentir que habían avanzado en algo que les importaba, aunque fuera poco.\n\nLo llamó el principio del progreso.\n\n¿Qué avanzaste hoy, aunque haya sido poquito?\n\n#motivacion #progreso #emprender",
+    "publicado": "2026-11-10 04:57:45"
   },
   {
     "dia": 39,
