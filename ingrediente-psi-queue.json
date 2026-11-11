@@ -471,7 +471,7 @@
   },
   {
     "dia": 39,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-10",
     "hora_argentina": "19:30",
     "publicar_en": "2026-11-10T19:30:00-03:00",
@@ -479,7 +479,8 @@
     "archivos": [
       "ingrediente-psi/D39.jpg"
     ],
-    "pie": "Todos queremos el resultado. La pregunta que casi nadie se hace es si también queremos el día a día que lo produce.\n\nQuerer un emprendimiento propio es fácil. Lo que cuesta es todo lo que viene con él:\n\nLos meses en que no vende nadie.\nEl cliente que paga tarde, o no paga.\nContestar mensajes a las once de la noche.\nHacer de vendedor y de contador en la misma tarde.\nQue en la familia te pregunten cuándo vas a buscar algo estable.\n\nTodo eso también viene en el combo. ¿Qué parte del proceso estás dispuesto a bancarte?\n\n#identidad #habitos #disciplina"
+    "pie": "Todos queremos el resultado. La pregunta que casi nadie se hace es si también queremos el día a día que lo produce.\n\nQuerer un emprendimiento propio es fácil. Lo que cuesta es todo lo que viene con él:\n\nLos meses en que no vende nadie.\nEl cliente que paga tarde, o no paga.\nContestar mensajes a las once de la noche.\nHacer de vendedor y de contador en la misma tarde.\nQue en la familia te pregunten cuándo vas a buscar algo estable.\n\nTodo eso también viene en el combo. ¿Qué parte del proceso estás dispuesto a bancarte?\n\n#identidad #habitos #disciplina",
+    "publicado": "2026-11-11 20:36:04"
   },
   {
     "dia": 40,
