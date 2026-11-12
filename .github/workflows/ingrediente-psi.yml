@@ -3,13 +3,13 @@ name: Ingrediente Psi - Publicar posteos
 on:
   schedule:
     # Horarios en UTC. Argentina = UTC-3 todo el año (sin horario de verano).
-    # El plan usa tres franjas: 10:00, 11:00 y 19:30 ARG. El script solo publica
-    # si el posteo que le toca ya venció su publicar_en, así que estas corridas
-    # son solo "chequeos" — nunca publican antes de tiempo ni descargan un
-    # backlog entero junto.
-    - cron: "0 13 * * *"    # 10:00 ARG
-    - cron: "0 14 * * *"    # 11:00 ARG
-    - cron: "30 22 * * *"   # 19:30 ARG
+    # Todos los posteos apuntan a tarde-noche ARG (20:00) para pegarle al
+    # horario en que la audiencia argentina usa Instagram. El script solo
+    # publica si el posteo que le toca ya venció su publicar_en, así que estas
+    # corridas son solo "chequeos" — nunca publican antes de tiempo ni
+    # descargan un backlog entero junto.
+    - cron: "0 23 * * *"    # 20:00 ARG
+    - cron: "0 1 * * *"     # 22:00 ARG (del dia anterior en UTC)
   workflow_dispatch:
 
 permissions:
