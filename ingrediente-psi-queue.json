@@ -497,7 +497,7 @@
   },
   {
     "dia": 41,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-12",
     "hora_argentina": "20:00",
     "publicar_en": "2026-11-12T20:00:00-03:00",
@@ -505,7 +505,8 @@
     "archivos": [
       "ingrediente-psi/D41.jpg"
     ],
-    "pie": "Lo ideal tiene una trampa: siempre falta algo, ya sea plata ahorrada o sentirte más preparado. Y mientras lo esperás, quien empezó con lo que tenía ya aprendió lo que vos seguís imaginando.\n\nEmpezar cuando se puede le gana a empezar cuando sea perfecto, porque lo perfecto nunca termina de llegar.\n\nPreguntate:\n\n¿Por qué no empezaste?\n¿Qué pasaría si empezás hoy, ahora, así como estás?\n¿Cuáles serían los siguientes pasos?\n\n#emprender #constancia #habitos"
+    "pie": "Lo ideal tiene una trampa: siempre falta algo, ya sea plata ahorrada o sentirte más preparado. Y mientras lo esperás, quien empezó con lo que tenía ya aprendió lo que vos seguís imaginando.\n\nEmpezar cuando se puede le gana a empezar cuando sea perfecto, porque lo perfecto nunca termina de llegar.\n\nPreguntate:\n\n¿Por qué no empezaste?\n¿Qué pasaría si empezás hoy, ahora, así como estás?\n¿Cuáles serían los siguientes pasos?\n\n#emprender #constancia #habitos",
+    "publicado": "2026-11-13 04:02:23"
   },
   {
     "dia": 42,
