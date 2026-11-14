@@ -510,7 +510,7 @@
   },
   {
     "dia": 42,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-13",
     "hora_argentina": "20:00",
     "publicar_en": "2026-11-13T20:00:00-03:00",
@@ -518,7 +518,8 @@
     "archivos": [
       "ingrediente-psi/D42.jpg"
     ],
-    "pie": "Para hacerte hoy:\n\n¿Qué te preocupaba hace exactamente un año?\n¿Qué sabés hoy que en ese momento no sabías?\n¿Qué te animaste a hacer desde entonces que antes ni te planteabas?\n¿Quién de tu vida de hoy no estaba hace un año?\n\nCompararte con quien eras es de las pocas comparaciones que te devuelven algo útil.\n\n#crecimientopersonal #autoestima #psicologia"
+    "pie": "Para hacerte hoy:\n\n¿Qué te preocupaba hace exactamente un año?\n¿Qué sabés hoy que en ese momento no sabías?\n¿Qué te animaste a hacer desde entonces que antes ni te planteabas?\n¿Quién de tu vida de hoy no estaba hace un año?\n\nCompararte con quien eras es de las pocas comparaciones que te devuelven algo útil.\n\n#crecimientopersonal #autoestima #psicologia",
+    "publicado": "2026-11-14 07:16:34"
   },
   {
     "dia": 43,
