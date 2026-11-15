@@ -523,7 +523,7 @@
   },
   {
     "dia": 43,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-14",
     "hora_argentina": "20:00",
     "publicar_en": "2026-11-14T20:00:00-03:00",
@@ -531,7 +531,8 @@
     "archivos": [
       "ingrediente-psi/D43.jpg"
     ],
-    "pie": "Reid Hoffman, uno de los fundadores de LinkedIn, tiene una frase que se repite mucho entre emprendedores: si no te da vergüenza la primera versión de tu producto, lo lanzaste demasiado tarde.\n\nDetrás hay algo muy humano. La primera versión siempre va a estar por debajo de lo que imaginabas, porque lo que imaginabas nunca tuvo que enfrentarse con la realidad.\n\nLa buena noticia es que esa versión imperfecta es la que te muestra qué mejorar. Todas las que vengan después van a ser mejores gracias a ella.\n\n¿Qué podrías mostrar esta semana tal como está hoy?\n\n#decisiones #emprender #miedo"
+    "pie": "Reid Hoffman, uno de los fundadores de LinkedIn, tiene una frase que se repite mucho entre emprendedores: si no te da vergüenza la primera versión de tu producto, lo lanzaste demasiado tarde.\n\nDetrás hay algo muy humano. La primera versión siempre va a estar por debajo de lo que imaginabas, porque lo que imaginabas nunca tuvo que enfrentarse con la realidad.\n\nLa buena noticia es que esa versión imperfecta es la que te muestra qué mejorar. Todas las que vengan después van a ser mejores gracias a ella.\n\n¿Qué podrías mostrar esta semana tal como está hoy?\n\n#decisiones #emprender #miedo",
+    "publicado": "2026-11-15 07:49:08"
   },
   {
     "dia": 44,
