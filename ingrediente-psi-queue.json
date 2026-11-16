@@ -552,7 +552,7 @@
   },
   {
     "dia": 45,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-15",
     "hora_argentina": "20:00",
     "publicar_en": "2026-11-15T20:00:00-03:00",
@@ -560,7 +560,8 @@
     "archivos": [
       "ingrediente-psi/D45.jpg"
     ],
-    "pie": "Los días buenos cualquiera los cumple. Lo que define una racha son los días malos, cuando dormiste poco o no tenés ganas de nada.\n\nPara esos días sirve tener una versión mínima: la forma más chica de lo que querés sostener, tan fácil que la puedas hacer igual. Si tu plan es entrenar una hora, la versión mínima pueden ser diez minutos de caminata. Si es salir a vender, puede ser mandar un solo mensaje.\n\nHacer poco también es hacer. Ese día no avanzás mucho, pero no cortás la racha, y al día siguiente retomar cuesta muchísimo menos.\n\n¿Cuál sería tu versión mínima?\n\n#disciplina #habitos #constancia"
+    "pie": "Los días buenos cualquiera los cumple. Lo que define una racha son los días malos, cuando dormiste poco o no tenés ganas de nada.\n\nPara esos días sirve tener una versión mínima: la forma más chica de lo que querés sostener, tan fácil que la puedas hacer igual. Si tu plan es entrenar una hora, la versión mínima pueden ser diez minutos de caminata. Si es salir a vender, puede ser mandar un solo mensaje.\n\nHacer poco también es hacer. Ese día no avanzás mucho, pero no cortás la racha, y al día siguiente retomar cuesta muchísimo menos.\n\n¿Cuál sería tu versión mínima?\n\n#disciplina #habitos #constancia",
+    "publicado": "2026-11-16 08:11:38"
   },
   {
     "dia": 46,
