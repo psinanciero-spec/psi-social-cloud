@@ -345,5 +345,85 @@
     "publicar_en": "2026-10-07T00:00:00-03:00",
     "publicado": "2026-10-07 12:25:44",
     "archivo": "historias-ingrediente-psi/H49.jpg"
+  },
+  {
+    "dia": 50,
+    "status": "omitida_sin_tiempo",
+    "fecha": "2026-11-13",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-13T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C01_1.jpg"
+    ]
+  },
+  {
+    "dia": 51,
+    "status": "omitida_sin_tiempo",
+    "fecha": "2026-11-14",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-14T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C02_1.jpg"
+    ]
+  },
+  {
+    "dia": 52,
+    "status": "omitida_sin_tiempo",
+    "fecha": "2026-11-15",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-15T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C03_1.jpg"
+    ]
+  },
+  {
+    "dia": 53,
+    "status": "omitida_sin_tiempo",
+    "fecha": "2026-11-16",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-16T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C04_1.jpg"
+    ]
+  },
+  {
+    "dia": 54,
+    "status": "pending",
+    "fecha": "2026-11-17",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-17T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C05_1.jpg"
+    ]
+  },
+  {
+    "dia": 55,
+    "status": "pending",
+    "fecha": "2026-11-18",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-18T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C06_1.jpg"
+    ]
+  },
+  {
+    "dia": 56,
+    "status": "pending",
+    "fecha": "2026-11-19",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-19T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C07_1.jpg"
+    ]
+  },
+  {
+    "dia": 57,
+    "status": "pending",
+    "fecha": "2026-11-20",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-20T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C08_1.jpg"
+    ]
   }
 ]
