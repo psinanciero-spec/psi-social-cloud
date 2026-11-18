@@ -603,7 +603,7 @@
   },
   {
     "dia": 50,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-17",
     "hora_argentina": "19:00",
     "publicar_en": "2026-11-17T19:00:00-03:00",
@@ -615,7 +615,8 @@
       "ingrediente-psi/C01_4.jpg",
       "ingrediente-psi/C01_5.jpg"
     ],
-    "pie": "Cómo empezar un emprendimiento sin plan perfecto: hacé una versión 1 simple y mejorala con clientes reales.\n\nLos sistemas grandes que funcionan empezaron chicos. ¿Cuál sería tu versión 1 para esta semana? Contanos abajo.\n\n#emprender #emprendedores #psicologia #desarrolloprofesional"
+    "pie": "Cómo empezar un emprendimiento sin plan perfecto: hacé una versión 1 simple y mejorala con clientes reales.\n\nLos sistemas grandes que funcionan empezaron chicos. ¿Cuál sería tu versión 1 para esta semana? Contanos abajo.\n\n#emprender #emprendedores #psicologia #desarrolloprofesional",
+    "publicado": "2026-11-18 04:13:00"
   },
   {
     "dia": 51,
