@@ -736,9 +736,9 @@
   {
     "dia": 58,
     "status": "pending",
-    "fecha": "2026-11-25",
+    "fecha": "2026-11-27",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-11-25T20:00:00-03:00",
+    "publicar_en": "2026-11-27T20:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C09_1.jpg",
@@ -751,9 +751,9 @@
   {
     "dia": 59,
     "status": "pending",
-    "fecha": "2026-11-26",
+    "fecha": "2026-12-01",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-11-26T20:00:00-03:00",
+    "publicar_en": "2026-12-01T20:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C10_1.jpg",
@@ -766,9 +766,9 @@
   {
     "dia": 60,
     "status": "pending",
-    "fecha": "2026-11-27",
+    "fecha": "2026-12-06",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-11-27T20:00:00-03:00",
+    "publicar_en": "2026-12-06T20:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C11_1.jpg",
@@ -781,9 +781,9 @@
   {
     "dia": 61,
     "status": "pending",
-    "fecha": "2026-11-28",
+    "fecha": "2026-12-03",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-11-28T20:00:00-03:00",
+    "publicar_en": "2026-12-03T20:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C12_1.jpg",
@@ -796,9 +796,9 @@
   {
     "dia": 62,
     "status": "pending",
-    "fecha": "2026-11-29",
+    "fecha": "2026-12-11",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-11-29T20:00:00-03:00",
+    "publicar_en": "2026-12-11T20:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C13_1.jpg",
@@ -807,5 +807,197 @@
       "ingrediente-psi/C13_4.jpg"
     ],
     "pie": "No tenés que hacerlo todo perfecto. Pero sí entender que hay etapas.\n\n¿Cuál de estas 4 fases te resonó más? Contanos en los comentarios."
+  },
+  {
+    "dia": 63,
+    "status": "pending",
+    "fecha": "2026-11-25",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-25T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_F.jpg"
+    ],
+    "pie": "Elegí el lente con el que mirás hoy."
+  },
+  {
+    "dia": 64,
+    "status": "pending",
+    "fecha": "2026-11-26",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-26T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_P39.jpg"
+    ],
+    "pie": "¿Qué botón apretás cuando algo no te sale?"
+  },
+  {
+    "dia": 65,
+    "status": "pending",
+    "fecha": "2026-11-28",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-28T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_C.jpg"
+    ],
+    "pie": "Las veces que lo intentaste y falló cuentan más que las que no intentaste."
+  },
+  {
+    "dia": 66,
+    "status": "pending",
+    "fecha": "2026-11-29",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-29T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_P30.jpg"
+    ],
+    "pie": "El no ya lo tenés. Lo demás, intentalo."
+  },
+  {
+    "dia": 67,
+    "status": "pending",
+    "fecha": "2026-11-30",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-30T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_B.jpg"
+    ],
+    "pie": "Lo que te da miedo probar, ¿es imposible o solo desconocido?"
+  },
+  {
+    "dia": 68,
+    "status": "pending",
+    "fecha": "2026-12-02",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-02T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_P32.jpg"
+    ],
+    "pie": "¿Hace cuánto estás leyendo en vez de meterte al agua?"
+  },
+  {
+    "dia": 69,
+    "status": "pending",
+    "fecha": "2026-12-04",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-04T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_P37.jpg"
+    ],
+    "pie": "¿En qué nivel de batería estás ahora mismo?"
+  },
+  {
+    "dia": 70,
+    "status": "pending",
+    "fecha": "2026-12-05",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-05T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_A.jpg"
+    ],
+    "pie": "¿A quién le preguntaste tu última decisión importante?"
+  },
+  {
+    "dia": 71,
+    "status": "pending",
+    "fecha": "2026-12-07",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-07T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_P31.jpg"
+    ],
+    "pie": "¿Qué vas a hacer hoy que sí puede cambiar todo?"
+  },
+  {
+    "dia": 72,
+    "status": "pending",
+    "fecha": "2026-12-08",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-08T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_P33.jpg"
+    ],
+    "pie": "¿Estás en el lugar correcto para que te vean?"
+  },
+  {
+    "dia": 73,
+    "status": "pending",
+    "fecha": "2026-12-09",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-09T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_P34.jpg"
+    ],
+    "pie": "¿Cuál de los dos círculos es el tuyo hoy?"
+  },
+  {
+    "dia": 74,
+    "status": "pending",
+    "fecha": "2026-12-10",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-10T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_D.jpg"
+    ],
+    "pie": "¿Cuántos de estos 10 tenés vos?"
+  },
+  {
+    "dia": 75,
+    "status": "pending",
+    "fecha": "2026-12-12",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-12T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_P36.jpg"
+    ],
+    "pie": "¿En qué estás gastando tu energía hoy?"
+  },
+  {
+    "dia": 76,
+    "status": "pending",
+    "fecha": "2026-12-13",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-13T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_E.jpg"
+    ],
+    "pie": "¿A qué le tenés que decir que no esta semana?"
+  },
+  {
+    "dia": 77,
+    "status": "pending",
+    "fecha": "2026-12-14",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-14T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_P38.jpg"
+    ],
+    "pie": "Actitud, acciones, y lo demás. ¿Dónde está tu foco hoy?"
+  },
+  {
+    "dia": 78,
+    "status": "pending",
+    "fecha": "2026-12-15",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-15T20:00:00-03:00",
+    "tipo": "imagen",
+    "archivos": [
+      "ingrediente-psi/IMG_P35.jpg"
+    ],
+    "pie": "¿Mejoraste algo esta semana, aunque sea poco?"
   }
 ]
