@@ -80,6 +80,14 @@ def main():
     pendientes_vencidos.sort(key=lambda t: t[0])
     _, nxt = pendientes_vencidos[0]
 
+    # Nunca publicar de madrugada: si la corrida (por un atraso de Github
+    # Actions) cae fuera de mediodia-23:30 ARG, se espera a la proxima.
+    hora_arg_ahora = ahora.astimezone(ARG).time()
+    if not (datetime.time(12, 0) <= hora_arg_ahora <= datetime.time(23, 30)):
+        log(f"Son las {hora_arg_ahora.strftime('%H:%M')} ARG, fuera de la ventana permitida "
+            f"(12:00 a 23:30 ARG). No se publica de madrugada, se reintenta en la proxima corrida.")
+        return
+
     hoy_arg = ahora.astimezone(ARG).date()
     es_carrusel = len(nxt["archivos"]) > 1
     dia_ya_publicado = ya_publico_hoy(cola, hoy_arg, es_carrusel)
