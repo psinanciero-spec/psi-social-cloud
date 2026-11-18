@@ -41,22 +41,23 @@ def url_publica(path):
 ARG = datetime.timezone(datetime.timedelta(hours=-3))
 
 
-def ya_publico_hoy(cola, hoy_arg, es_carrusel):
-    """Ya salio un posteo del MISMO tipo hoy (hora ARG). El dibujo diario y
-    el carrusel cada 2 dias conviven el mismo dia a proposito, pero dos
-    dibujos (o dos carruseles) el mismo dia no: un atraso de unas horas
-    puede empujar un posteo justo despues de medianoche y duplicar el
-    posteo diario de ese tipo."""
+MAX_POSTEOS_POR_DIA = 2
+
+
+def publicados_hoy_arg(cola, hoy_arg):
+    """Dias (y cantidad) de los posteos ya publicados hoy, hora ARG. El
+    limite es por CANTIDAD (2 por dia: tipicamente una placa y un carrusel),
+    no por tipo -- lo unico prohibido es republicar la MISMA entrada, y eso
+    ya es imposible porque una vez publicada su status deja de ser 'pending'."""
+    publicados = []
     for x in cola:
         if x["status"] != "published" or not x.get("publicado"):
-            continue
-        if (len(x["archivos"]) > 1) != es_carrusel:
             continue
         publicado_utc = datetime.datetime.strptime(x["publicado"], "%Y-%m-%d %H:%M:%S")
         publicado_utc = publicado_utc.replace(tzinfo=datetime.timezone.utc)
         if publicado_utc.astimezone(ARG).date() == hoy_arg:
-            return x["dia"]
-    return None
+            publicados.append(x["dia"])
+    return publicados
 
 
 def main():
@@ -89,12 +90,10 @@ def main():
         return
 
     hoy_arg = ahora.astimezone(ARG).date()
-    es_carrusel = len(nxt["archivos"]) > 1
-    dia_ya_publicado = ya_publico_hoy(cola, hoy_arg, es_carrusel)
-    if dia_ya_publicado is not None:
-        tipo = "carrusel" if es_carrusel else "dibujo"
-        log(f"Ya se publico un {tipo} hoy (dia {dia_ya_publicado}, {hoy_arg} ARG). "
-            f"No se publica un segundo {tipo} el mismo dia aunque este vencido. Se reintenta en la proxima corrida.")
+    dias_hoy = publicados_hoy_arg(cola, hoy_arg)
+    if len(dias_hoy) >= MAX_POSTEOS_POR_DIA:
+        log(f"Ya se publicaron {len(dias_hoy)} posteos hoy ({hoy_arg} ARG, dias {dias_hoy}), "
+            f"tope diario {MAX_POSTEOS_POR_DIA}. Se reintenta en la proxima corrida.")
         return
 
     if not hay_cupo():
