@@ -425,5 +425,55 @@
     "archivos": [
       "ingrediente-psi/C08_1.jpg"
     ]
+  },
+  {
+    "dia": 58,
+    "status": "pending",
+    "fecha": "2026-11-21",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-21T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C09_1.jpg"
+    ]
+  },
+  {
+    "dia": 59,
+    "status": "pending",
+    "fecha": "2026-11-22",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-22T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C10_1.jpg"
+    ]
+  },
+  {
+    "dia": 60,
+    "status": "pending",
+    "fecha": "2026-11-23",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-23T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C11_1.jpg"
+    ]
+  },
+  {
+    "dia": 61,
+    "status": "pending",
+    "fecha": "2026-11-24",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-24T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C12_1.jpg"
+    ]
+  },
+  {
+    "dia": 62,
+    "status": "pending",
+    "fecha": "2026-11-25",
+    "hora_argentina": "20:30",
+    "publicar_en": "2026-11-25T20:30:00-03:00",
+    "archivos": [
+      "ingrediente-psi/C13_1.jpg"
+    ]
   }
 ]

@@ -732,5 +732,80 @@
       "ingrediente-psi/C08_6.jpg"
     ],
     "pie": "Por qué seguís en el mismo lugar que hace un año y cómo moverte esta semana.\n\nUn paso pequeño, con fecha. ¿Cuál vas a dar? Si querés ordenarlo con nosotros, escribinos ASESORÍA.\n\n#crecimientopersonal #emprender #psicologia #cambio"
+  },
+  {
+    "dia": 58,
+    "status": "pending",
+    "fecha": "2026-11-25",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-25T20:00:00-03:00",
+    "tipo": "carrusel",
+    "archivos": [
+      "ingrediente-psi/C09_1.jpg",
+      "ingrediente-psi/C09_2.jpg",
+      "ingrediente-psi/C09_3.jpg",
+      "ingrediente-psi/C09_4.jpg"
+    ],
+    "pie": "Comentá VISIÓN para que te pasemos un video sobre una de las mejores charlas TED para cambiar tu perspectiva."
+  },
+  {
+    "dia": 59,
+    "status": "pending",
+    "fecha": "2026-11-26",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-26T20:00:00-03:00",
+    "tipo": "carrusel",
+    "archivos": [
+      "ingrediente-psi/C10_1.jpg",
+      "ingrediente-psi/C10_2.jpg",
+      "ingrediente-psi/C10_3.jpg",
+      "ingrediente-psi/C10_4.jpg"
+    ],
+    "pie": "Patear las cosas capaz es algo de lo que venís acostumbrado y te cuesta salir, pero con cualquiera de estos 5 pilares vas a poder.\n\nEso sí: tiene que ser ahora. No mañana, no en unos días, no la semana que viene. Hoy, al terminar de leer esto, dale el primer paso a eso que venís pateando."
+  },
+  {
+    "dia": 60,
+    "status": "pending",
+    "fecha": "2026-11-27",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-27T20:00:00-03:00",
+    "tipo": "carrusel",
+    "archivos": [
+      "ingrediente-psi/C11_1.jpg",
+      "ingrediente-psi/C11_2.jpg",
+      "ingrediente-psi/C11_3.jpg",
+      "ingrediente-psi/C11_4.jpg"
+    ],
+    "pie": "Es muy difícil arrancar un proyecto si no tenés en claro al menos estos aspectos.\n\nNo necesitás saberlo todo. Solo una idea con claridad y un marco para dar los primeros pasos más tranquilo.\n\nSi necesitás ayuda para dar esos pasos en tu emprendimiento, escribinos."
+  },
+  {
+    "dia": 61,
+    "status": "pending",
+    "fecha": "2026-11-28",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-28T20:00:00-03:00",
+    "tipo": "carrusel",
+    "archivos": [
+      "ingrediente-psi/C12_1.jpg",
+      "ingrediente-psi/C12_2.jpg",
+      "ingrediente-psi/C12_3.jpg",
+      "ingrediente-psi/C12_4.jpg"
+    ],
+    "pie": "Evitar una tarea cansa más que hacerla. Lo venimos repitiendo, pero una cosa es leerlo y otra es sentir cómo te cambia la cabeza.\n\nComentá PUEDO si querés recibir un video que te va a cambiar la cabeza con respecto a dejar de patear tus tareas."
+  },
+  {
+    "dia": 62,
+    "status": "pending",
+    "fecha": "2026-11-29",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-29T20:00:00-03:00",
+    "tipo": "carrusel",
+    "archivos": [
+      "ingrediente-psi/C13_1.jpg",
+      "ingrediente-psi/C13_2.jpg",
+      "ingrediente-psi/C13_3.jpg",
+      "ingrediente-psi/C13_4.jpg"
+    ],
+    "pie": "No tenés que hacerlo todo perfecto. Pero sí entender que hay etapas.\n\n¿Cuál de estas 4 fases te resonó más? Contanos en los comentarios."
   }
 ]
