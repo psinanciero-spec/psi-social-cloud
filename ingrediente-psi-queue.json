@@ -621,7 +621,7 @@
   },
   {
     "dia": 51,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-18",
     "hora_argentina": "20:00",
     "publicar_en": "2026-11-18T20:00:00-03:00",
@@ -633,7 +633,8 @@
       "ingrediente-psi/C02_4.jpg",
       "ingrediente-psi/C02_5.jpg"
     ],
-    "pie": "Cómo dejar de postergar tareas: acortá el plazo y vas a terminar antes.\n\nEl trabajo se estira hasta ocupar todo el tiempo que le das. ¿Cuántos días le das a tu próxima tarea? Escribí tu plazo en comentarios.\n\n#productividad #emprender #gestiondeltiempo #psicologia"
+    "pie": "Cómo dejar de postergar tareas: acortá el plazo y vas a terminar antes.\n\nEl trabajo se estira hasta ocupar todo el tiempo que le das. ¿Cuántos días le das a tu próxima tarea? Escribí tu plazo en comentarios.\n\n#productividad #emprender #gestiondeltiempo #psicologia",
+    "publicado": "2026-11-19 23:07:21"
   },
   {
     "dia": 52,
