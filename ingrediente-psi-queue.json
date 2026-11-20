@@ -656,8 +656,8 @@
     "dia": 53,
     "status": "pending",
     "fecha": "2026-11-20",
-    "hora_argentina": "20:00",
-    "publicar_en": "2026-11-20T20:00:00-03:00",
+    "hora_argentina": "13:00",
+    "publicar_en": "2026-11-20T13:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C04_1.jpg",
@@ -672,8 +672,8 @@
     "dia": 54,
     "status": "pending",
     "fecha": "2026-11-21",
-    "hora_argentina": "20:00",
-    "publicar_en": "2026-11-21T20:00:00-03:00",
+    "hora_argentina": "13:00",
+    "publicar_en": "2026-11-21T13:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C05_1.jpg",
@@ -689,8 +689,8 @@
     "dia": 55,
     "status": "pending",
     "fecha": "2026-11-22",
-    "hora_argentina": "20:00",
-    "publicar_en": "2026-11-22T20:00:00-03:00",
+    "hora_argentina": "13:00",
+    "publicar_en": "2026-11-22T13:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C06_1.jpg",
@@ -706,8 +706,8 @@
     "dia": 56,
     "status": "pending",
     "fecha": "2026-11-23",
-    "hora_argentina": "20:00",
-    "publicar_en": "2026-11-23T20:00:00-03:00",
+    "hora_argentina": "13:00",
+    "publicar_en": "2026-11-23T13:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C07_1.jpg",
@@ -722,8 +722,8 @@
     "dia": 57,
     "status": "pending",
     "fecha": "2026-11-24",
-    "hora_argentina": "20:00",
-    "publicar_en": "2026-11-24T20:00:00-03:00",
+    "hora_argentina": "13:00",
+    "publicar_en": "2026-11-24T13:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C08_1.jpg",
@@ -738,9 +738,9 @@
   {
     "dia": 58,
     "status": "pending",
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-25",
     "hora_argentina": "13:00",
-    "publicar_en": "2026-11-26T13:00:00-03:00",
+    "publicar_en": "2026-11-25T13:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C09_1.jpg",
@@ -753,9 +753,9 @@
   {
     "dia": 59,
     "status": "pending",
-    "fecha": "2026-11-28",
+    "fecha": "2026-11-26",
     "hora_argentina": "13:00",
-    "publicar_en": "2026-11-28T13:00:00-03:00",
+    "publicar_en": "2026-11-26T13:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C10_1.jpg",
@@ -768,9 +768,9 @@
   {
     "dia": 60,
     "status": "pending",
-    "fecha": "2026-11-30",
-    "hora_argentina": "20:00",
-    "publicar_en": "2026-11-30T20:00:00-03:00",
+    "fecha": "2026-11-27",
+    "hora_argentina": "13:00",
+    "publicar_en": "2026-11-27T13:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C11_1.jpg",
@@ -783,9 +783,9 @@
   {
     "dia": 61,
     "status": "pending",
-    "fecha": "2026-11-29",
+    "fecha": "2026-11-28",
     "hora_argentina": "13:00",
-    "publicar_en": "2026-11-29T13:00:00-03:00",
+    "publicar_en": "2026-11-28T13:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C12_1.jpg",
@@ -798,9 +798,9 @@
   {
     "dia": 62,
     "status": "pending",
-    "fecha": "2026-12-03",
+    "fecha": "2026-11-29",
     "hora_argentina": "13:00",
-    "publicar_en": "2026-12-03T13:00:00-03:00",
+    "publicar_en": "2026-11-29T13:00:00-03:00",
     "tipo": "carrusel",
     "archivos": [
       "ingrediente-psi/C13_1.jpg",
@@ -813,9 +813,9 @@
   {
     "dia": 63,
     "status": "pending",
-    "fecha": "2026-11-25",
-    "hora_argentina": "13:00",
-    "publicar_en": "2026-11-25T13:00:00-03:00",
+    "fecha": "2026-11-20",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-20T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_F.jpg"
@@ -825,9 +825,9 @@
   {
     "dia": 64,
     "status": "pending",
-    "fecha": "2026-11-25",
+    "fecha": "2026-11-21",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-11-25T20:00:00-03:00",
+    "publicar_en": "2026-11-21T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_P39.jpg"
@@ -837,9 +837,9 @@
   {
     "dia": 65,
     "status": "pending",
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-22",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-11-26T20:00:00-03:00",
+    "publicar_en": "2026-11-22T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_C.jpg"
@@ -849,9 +849,9 @@
   {
     "dia": 66,
     "status": "pending",
-    "fecha": "2026-11-27",
-    "hora_argentina": "13:00",
-    "publicar_en": "2026-11-27T13:00:00-03:00",
+    "fecha": "2026-11-23",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-23T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_P30.jpg"
@@ -861,9 +861,9 @@
   {
     "dia": 67,
     "status": "pending",
-    "fecha": "2026-11-27",
+    "fecha": "2026-11-24",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-11-27T20:00:00-03:00",
+    "publicar_en": "2026-11-24T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_B.jpg"
@@ -873,9 +873,9 @@
   {
     "dia": 68,
     "status": "pending",
-    "fecha": "2026-11-28",
+    "fecha": "2026-11-25",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-11-28T20:00:00-03:00",
+    "publicar_en": "2026-11-25T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_P32.jpg"
@@ -885,9 +885,9 @@
   {
     "dia": 69,
     "status": "pending",
-    "fecha": "2026-11-29",
+    "fecha": "2026-11-26",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-11-29T20:00:00-03:00",
+    "publicar_en": "2026-11-26T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_P37.jpg"
@@ -897,9 +897,9 @@
   {
     "dia": 70,
     "status": "pending",
-    "fecha": "2026-11-30",
-    "hora_argentina": "13:00",
-    "publicar_en": "2026-11-30T13:00:00-03:00",
+    "fecha": "2026-11-27",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-27T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_A.jpg"
@@ -909,9 +909,9 @@
   {
     "dia": 71,
     "status": "pending",
-    "fecha": "2026-12-01",
-    "hora_argentina": "13:00",
-    "publicar_en": "2026-12-01T13:00:00-03:00",
+    "fecha": "2026-11-28",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-28T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_P31.jpg"
@@ -921,9 +921,9 @@
   {
     "dia": 72,
     "status": "pending",
-    "fecha": "2026-12-01",
+    "fecha": "2026-11-29",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-12-01T20:00:00-03:00",
+    "publicar_en": "2026-11-29T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_P33.jpg"
@@ -933,9 +933,9 @@
   {
     "dia": 73,
     "status": "pending",
-    "fecha": "2026-12-02",
-    "hora_argentina": "13:00",
-    "publicar_en": "2026-12-02T13:00:00-03:00",
+    "fecha": "2026-11-30",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-11-30T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_P34.jpg"
@@ -945,9 +945,9 @@
   {
     "dia": 74,
     "status": "pending",
-    "fecha": "2026-12-02",
+    "fecha": "2026-12-01",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-12-02T20:00:00-03:00",
+    "publicar_en": "2026-12-01T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_D.jpg"
@@ -957,9 +957,9 @@
   {
     "dia": 75,
     "status": "pending",
-    "fecha": "2026-12-03",
+    "fecha": "2026-12-02",
     "hora_argentina": "20:00",
-    "publicar_en": "2026-12-03T20:00:00-03:00",
+    "publicar_en": "2026-12-02T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_P36.jpg"
@@ -969,9 +969,9 @@
   {
     "dia": 76,
     "status": "pending",
-    "fecha": "2026-12-04",
-    "hora_argentina": "13:00",
-    "publicar_en": "2026-12-04T13:00:00-03:00",
+    "fecha": "2026-12-03",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-03T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_E.jpg"
@@ -994,8 +994,8 @@
     "dia": 78,
     "status": "pending",
     "fecha": "2026-12-05",
-    "hora_argentina": "13:00",
-    "publicar_en": "2026-12-05T13:00:00-03:00",
+    "hora_argentina": "20:00",
+    "publicar_en": "2026-12-05T20:00:00-03:00",
     "tipo": "imagen",
     "archivos": [
       "ingrediente-psi/IMG_P35.jpg"
