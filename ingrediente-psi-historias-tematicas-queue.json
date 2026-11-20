@@ -313,5 +313,111 @@
     ],
     "status": "published",
     "publicado": "2026-11-15 05:06:43"
+  },
+  {
+    "serie": "Todavia_no",
+    "fecha": "2026-11-21",
+    "hora_argentina": "21:00",
+    "publicar_en": "2026-11-21T21:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/Todavia_no__01_1.jpg",
+      "historias-tematicas-ingrediente-psi/Todavia_no__01_2.jpg",
+      "historias-tematicas-ingrediente-psi/Todavia_no__01_3.jpg",
+      "historias-tematicas-ingrediente-psi/Todavia_no__01_4.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "Sofia_primera_sesion",
+    "fecha": "2026-11-23",
+    "hora_argentina": "21:00",
+    "publicar_en": "2026-11-23T21:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/Sofia_primera_sesion__01_1.jpg",
+      "historias-tematicas-ingrediente-psi/Sofia_primera_sesion__01_2.jpg",
+      "historias-tematicas-ingrediente-psi/Sofia_primera_sesion__01_3.jpg",
+      "historias-tematicas-ingrediente-psi/Sofia_primera_sesion__01_4.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "Asi_es_la_sesion_1",
+    "fecha": "2026-11-25",
+    "hora_argentina": "21:00",
+    "publicar_en": "2026-11-25T21:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/Asi_es_la_sesion_1__01_1.jpg",
+      "historias-tematicas-ingrediente-psi/Asi_es_la_sesion_1__01_2.jpg",
+      "historias-tematicas-ingrediente-psi/Asi_es_la_sesion_1__01_3.jpg",
+      "historias-tematicas-ingrediente-psi/Asi_es_la_sesion_1__01_4.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "Identidad_por_capas",
+    "fecha": "2026-11-27",
+    "hora_argentina": "21:00",
+    "publicar_en": "2026-11-27T21:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/Identidad_por_capas__01_1.jpg",
+      "historias-tematicas-ingrediente-psi/Identidad_por_capas__01_2.jpg",
+      "historias-tematicas-ingrediente-psi/Identidad_por_capas__01_3.jpg",
+      "historias-tematicas-ingrediente-psi/Identidad_por_capas__01_4.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "Asi_es_la_sesion_2",
+    "fecha": "2026-11-29",
+    "hora_argentina": "21:00",
+    "publicar_en": "2026-11-29T21:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/Asi_es_la_sesion_2__01_1.jpg",
+      "historias-tematicas-ingrediente-psi/Asi_es_la_sesion_2__01_2.jpg",
+      "historias-tematicas-ingrediente-psi/Asi_es_la_sesion_2__01_3.jpg",
+      "historias-tematicas-ingrediente-psi/Asi_es_la_sesion_2__01_4.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "Pensar_en_el_futuro",
+    "fecha": "2026-12-01",
+    "hora_argentina": "21:00",
+    "publicar_en": "2026-12-01T21:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/Pensar_en_el_futuro__01_1.jpg",
+      "historias-tematicas-ingrediente-psi/Pensar_en_el_futuro__01_2.jpg",
+      "historias-tematicas-ingrediente-psi/Pensar_en_el_futuro__01_3.jpg",
+      "historias-tematicas-ingrediente-psi/Pensar_en_el_futuro__01_4.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "Plan_perfecto_va_a_fallar",
+    "fecha": "2026-12-03",
+    "hora_argentina": "21:00",
+    "publicar_en": "2026-12-03T21:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/Plan_perfecto_va_a_fallar__01_1.jpg",
+      "historias-tematicas-ingrediente-psi/Plan_perfecto_va_a_fallar__01_2.jpg",
+      "historias-tematicas-ingrediente-psi/Plan_perfecto_va_a_fallar__01_3.jpg",
+      "historias-tematicas-ingrediente-psi/Plan_perfecto_va_a_fallar__01_4.jpg",
+      "historias-tematicas-ingrediente-psi/Plan_perfecto_va_a_fallar__01_5.jpg"
+    ],
+    "status": "pending"
+  },
+  {
+    "serie": "Ley_de_Parkinson",
+    "fecha": "2026-12-05",
+    "hora_argentina": "21:00",
+    "publicar_en": "2026-12-05T21:00:00-03:00",
+    "archivos": [
+      "historias-tematicas-ingrediente-psi/Ley_de_Parkinson__01_1.jpg",
+      "historias-tematicas-ingrediente-psi/Ley_de_Parkinson__01_2.jpg",
+      "historias-tematicas-ingrediente-psi/Ley_de_Parkinson__01_3.jpg",
+      "historias-tematicas-ingrediente-psi/Ley_de_Parkinson__01_4.jpg",
+      "historias-tematicas-ingrediente-psi/Ley_de_Parkinson__01_5.jpg"
+    ],
+    "status": "pending"
   }
 ]
