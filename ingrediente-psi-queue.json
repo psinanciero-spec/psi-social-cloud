@@ -655,7 +655,7 @@
   },
   {
     "dia": 53,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-20",
     "hora_argentina": "13:00",
     "publicar_en": "2026-11-20T13:00:00-03:00",
@@ -667,7 +667,8 @@
       "ingrediente-psi/C04_4.jpg",
       "ingrediente-psi/C04_5.jpg"
     ],
-    "pie": "Qué tipo de procrastinador sos: evitador, optimista o placentero.\n\nCada tipo tiene una salida distinta. Comentá 1, 2 o 3 y guardá el post.\n\n#procrastinacion #autoconocimiento #psicologia #productividad"
+    "pie": "Qué tipo de procrastinador sos: evitador, optimista o placentero.\n\nCada tipo tiene una salida distinta. Comentá 1, 2 o 3 y guardá el post.\n\n#procrastinacion #autoconocimiento #psicologia #productividad",
+    "publicado": "2026-11-21 21:41:24"
   },
   {
     "dia": 54,
