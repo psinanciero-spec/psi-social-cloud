@@ -814,7 +814,7 @@
   },
   {
     "dia": 63,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-20",
     "hora_argentina": "20:00",
     "publicar_en": "2026-11-20T20:00:00-03:00",
@@ -822,7 +822,8 @@
     "archivos": [
       "ingrediente-psi/IMG_F.jpg"
     ],
-    "pie": "Elegí el lente con el que mirás hoy."
+    "pie": "Elegí el lente con el que mirás hoy.",
+    "publicado": "2026-11-22 21:58:04"
   },
   {
     "dia": 64,
