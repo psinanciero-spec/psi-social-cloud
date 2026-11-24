@@ -672,7 +672,7 @@
   },
   {
     "dia": 54,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-21",
     "hora_argentina": "13:00",
     "publicar_en": "2026-11-21T13:00:00-03:00",
@@ -685,7 +685,8 @@
       "ingrediente-psi/C05_5.jpg",
       "ingrediente-psi/C05_6.jpg"
     ],
-    "pie": "Por qué no terminás lo que empezás: las 5 razones más comunes en emprendedores.\n\nCuando conocés la razón, podés cambiarla. ¿Cuál es la tuya? Escribí el número abajo.\n\n#emprender #constancia #psicologia #productividad"
+    "pie": "Por qué no terminás lo que empezás: las 5 razones más comunes en emprendedores.\n\nCuando conocés la razón, podés cambiarla. ¿Cuál es la tuya? Escribí el número abajo.\n\n#emprender #constancia #psicologia #productividad",
+    "publicado": "2026-11-24 23:52:22"
   },
   {
     "dia": 55,
