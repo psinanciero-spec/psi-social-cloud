@@ -828,7 +828,7 @@
   },
   {
     "dia": 64,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-21",
     "hora_argentina": "20:00",
     "publicar_en": "2026-11-21T20:00:00-03:00",
@@ -836,7 +836,8 @@
     "archivos": [
       "ingrediente-psi/IMG_P39.jpg"
     ],
-    "pie": "¿Qué botón apretás cuando algo no te sale?"
+    "pie": "¿Qué botón apretás cuando algo no te sale?",
+    "publicado": "2026-11-24 23:58:52"
   },
   {
     "dia": 65,
