@@ -22,6 +22,8 @@ QUEUE_FILE = "ingrediente-psi-historias-tematicas-queue.json"
 GRAPH      = "https://graph.instagram.com/v21.0"
 RAW_BASE   = "https://raw.githubusercontent.com/psinanciero-spec/psi-social-cloud/main/"
 
+ARG = datetime.timezone(datetime.timedelta(hours=-3))
+
 
 def log(msg):
     print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {msg}", flush=True)
@@ -71,12 +73,20 @@ def main():
     vencidas.sort(key=lambda t: t[0])
     _, idx, nxt = vencidas[0]
 
+    # Nunca publicar de madrugada: si la corrida (por un atraso de Github
+    # Actions) cae fuera de 12:00-23:30 ARG, se espera a la proxima.
+    hora_arg_ahora = ahora.astimezone(ARG).time()
+    if not (datetime.time(12, 0) <= hora_arg_ahora <= datetime.time(23, 30)):
+        log(f"Son las {hora_arg_ahora.strftime('%H:%M')} ARG, fuera de la ventana permitida "
+            f"(12:00 a 23:30 ARG). No se publica de madrugada, se reintenta en la proxima corrida.")
+        return
+
     if not hay_cupo():
         log(f"Cupo diario alcanzado ({publicados_hoy()}/{CUPO_MAX} entre posteos+historias+frases+series). Se reintenta manana.")
         return
 
     if os.environ.get("GITHUB_EVENT_NAME") == "schedule":
-        espera = random.randint(0, 90 * 60)
+        espera = random.randint(0, 20 * 60)
         log(f"Esperando {espera // 60} min {espera % 60} s para no publicar siempre a la misma hora exacta.")
         time.sleep(espera)
 
