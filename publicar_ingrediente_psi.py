@@ -102,9 +102,10 @@ def main():
 
     # Ruido en la hora: el cron es fijo y, a la larga, publicar siempre al
     # mismo segundo deja una huella de bot. Esperar un rato al azar corre
-    # la publicacion dentro de la franja (mismo fix que uso Diamond).
+    # la publicacion dentro de la franja (mismo fix que uso Diamond), pero
+    # corto (0-20 min) para no alejarse del horario pactado con el cliente.
     if os.environ.get("GITHUB_EVENT_NAME") == "schedule":
-        espera = random.randint(0, 90 * 60)
+        espera = random.randint(0, 20 * 60)
         log(f"Esperando {espera // 60} min {espera % 60} s para no publicar siempre a la misma hora exacta.")
         time.sleep(espera)
 
