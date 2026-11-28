@@ -2,16 +2,11 @@ name: Ingrediente Psi - Publicar posteos
 
 on:
   schedule:
-    # Horarios en UTC. Argentina = UTC-3 todo el año (sin horario de verano).
-    # Dos posteos por dia: uno de tarde (18:00 ARG) y uno de noche (21:00
-    # ARG). Cada uno tiene un chequeo de respaldo 1h despues, por si Github
-    # Actions atrasa la corrida principal. El script solo publica si el
-    # posteo ya vencio su publicar_en Y la hora actual ARG esta entre 12:00
-    # y 23:30 -- si cae de madrugada, se frena sola y espera a la siguiente.
-    - cron: "0 21 * * *"    # 18:00 ARG (posteo de tarde)
-    - cron: "0 22 * * *"    # 19:00 ARG (respaldo de tarde)
-    - cron: "0 0 * * *"     # 21:00 ARG (posteo de noche)
-    - cron: "0 1 * * *"     # 22:00 ARG (respaldo de noche)
+    # Corre cada hora. Github atrasa los cron varias horas a veces, asi que
+    # horarios fijos (ni con respaldo) no alcanzaban -- quedaban cayendo de
+    # madrugada y se salteaban enteros. El script decide solo: publica si
+    # hay algo vencido, hay cupo, y la hora ARG no es de madrugada.
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:

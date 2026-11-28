@@ -2,13 +2,8 @@ name: Ingrediente Psi - Publicar historias
 
 on:
   schedule:
-    # Dos corridas por dia: desde que el carrusel suma una historia extra
-    # cada 2 dias, a veces hay 2 historias el mismo dia y una sola corrida
-    # las iba atrasando un dia entero.
-    - cron: "0 16 * * *"    # 13:00 ARG
-    - cron: "0 17 * * *"    # 14:00 ARG (respaldo)
-    - cron: "0 21 * * *"    # 18:00 ARG
-    - cron: "0 22 * * *"    # 19:00 ARG (respaldo)
+    # Corre cada hora (ver ingrediente-psi.yml para el porque).
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:

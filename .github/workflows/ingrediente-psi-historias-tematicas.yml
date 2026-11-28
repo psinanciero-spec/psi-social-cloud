@@ -2,8 +2,8 @@ name: Ingrediente Psi - Historias tematicas (series de 5)
 
 on:
   schedule:
-    - cron: "0 0 * * *"     # 21:00 ARG
-    - cron: "0 1 * * *"     # 22:00 ARG (respaldo)
+    # Corre cada hora (ver ingrediente-psi.yml para el porque).
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
