@@ -842,7 +842,7 @@
   },
   {
     "dia": 65,
-    "status": "pending",
+    "status": "published",
     "fecha": "2026-11-22",
     "hora_argentina": "21:00",
     "publicar_en": "2026-11-22T21:00:00-03:00",
@@ -850,7 +850,8 @@
     "archivos": [
       "ingrediente-psi/IMG_C.jpg"
     ],
-    "pie": "Las veces que lo intentaste y falló cuentan más que las que no intentaste."
+    "pie": "Las veces que lo intentaste y falló cuentan más que las que no intentaste.",
+    "publicado": "2026-11-28 16:56:47"
   },
   {
     "dia": 66,
